@@ -1,21 +1,60 @@
-import asyncHandler from "express-async-handler"
-import { createProduct, getAllProducts } from "../services/productService";
+const Product = require("../models/Product")
+const { getAllProducts, createProduct, updateProduct, findProduct } = require("../services/productService")
 
-
-// @desc Get products
-// @route GET api/v1/products
-// @access public
-export const getProductsController = asyncHandler(async (req, res) => {
-    const products = await getAllProducts();
-
+//@desc GET all Products
+//@route /api/v1/products
+//@access Public
+const getProductsHandler = async (req, res) => {
+    const products = await getAllProducts()
     res.status(200).json(products);
-});
+};
 
-// @desc Create a new product
-// @route POST api/v1/products
-// @access private
-export const createProductController = asyncHandler(async (req, res) => {
-    const createdProduct = await createProduct(req.body);
+//@desc Create Product - POST
+//@route /api/v1/products/create
+//@access Private
+const createProductHandler = async (req, res) => { 
+    const product = await createProduct(req.body)
+    res.status(200).json(product)
+};
 
-    res.status(200).json(createdProduct);
-})
+//@desc Edit Product - POST
+//@route /api/products/update/:slug
+//@access Private
+const updateProductHandler = async (req, res) => {
+    try {
+        const updatedProduct = await Product.findByIdAndUpdate(req.params.id, { $set: req.body }, {new: true});
+        if(!updatedProduct) throw new Error(`Error, product ${slug} not found`);
+        res.status(200).json(updatedProduct);
+    } catch (err) {
+        throw new Error("Error updating product");
+    }
+}
+
+const findProductHandler = async (req, res) => {
+    try {
+        const product = await Product.findById(req.params.id);
+        if(!product) throw new Error(`Product ${req.params.id} not found`);
+        res.status(200).json(product);
+    } catch (err) {
+        throw new Error("Error finding product");
+        res.status(404).json({message: "Product not found"});
+    }
+}
+
+const deleteProductHandler = async (req, res) => {
+    try {
+        const product = await Product.findByIdAndRemove(req.params.id);
+        if(!product) throw new Error(`Product ${req.params.id} not found`);
+        res.status(200).json({message: "Product deleted"});
+    } catch (err) {
+        throw new Error("Error deleting product");
+    }
+}
+
+module.exports = {
+    getProductsHandler,
+    createProductHandler,
+    updateProductHandler,
+    findProductHandler,
+    deleteProductHandler
+}

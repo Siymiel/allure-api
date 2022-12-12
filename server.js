@@ -1,43 +1,34 @@
-import express from 'express';
-import cors from 'cors'
-import dotenv from 'dotenv'
-import colors from 'colors'
-import mongoose from 'mongoose';
-import { PORT, MONGO_URI } from './utils/config.js';
-
-mongoose.set('strictQuery', true);
-
-const connectDB = async () => {
-    if (!MONGO_URI) {
-        console.log(
-            'MONGO_URL is not defined in the env file'.red.underline.bold
-        );
-        process.exit(1);
-    }
-    try {
-        await mongoose.connect(MONGO_URI);
-        console.log('MongoDB connected successfully'.blue.underline.bold);
-    } catch (err) {
-        console.log(err.message.red.underline.bold);
-        process.exit(1);
-    }
-};
-connectDB()
+const express = require("express")
+const mongoose = require("mongoose")
+const config = require('./utils/config')
+const cors = require("cors");
+var colors = require('colors')
+const productRoute = require("./routes/productRoute")
 
 const app = express();
 
 colors.enable()
 
-dotenv.config()
-
-app.use(cors)
+app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-const log = console.log;
+app.use('/api/v1/products', productRoute)
 
+// mongoose.set('strictQuery', false)
+const log = console.log
 
-app.listen(PORT || 5000, () => {
-    log(`Server running on port: ${PORT}`.yellow)
-})
+if(!config.MONGO_URI) {
+    log("MONGO_URI not found in .env file")
+} else {
+    mongoose
+    .connect(config.MONGO_URI)
+    .then(() => {
+        log('DB Connection Successfull'.green);
+        app.listen(config.PORT || 8080, () => {
+            log(`Server is running on port: ${config.PORT}`.yellow);
+        });
+    })
+    .catch(err => log(err))
+}
 

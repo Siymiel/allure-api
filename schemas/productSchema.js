@@ -1,9 +1,9 @@
-import mongoose from "mongoose";
-import slug from "mongoose-slug-generator";
+const mongoose = require('mongoose');
+const slug = require('mongoose-slug-generator')
 
 mongoose.plugin(slug)
 
-const productSchema = new mongoose.Schema({
+const ProductSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
@@ -26,12 +26,6 @@ const productSchema = new mongoose.Schema({
         type: Array,
         required: true
     },
-    size: {
-        type: Array
-    },
-    color: {
-        type: Array
-    },
     price: {
         type: Number,
         required: true
@@ -40,6 +34,7 @@ const productSchema = new mongoose.Schema({
         type: Boolean,
         default: true
     }
-}, { timestamps: true });
 
-export default productSchema;
+}, { timestamps: true })
+
+module.exports = ProductSchema

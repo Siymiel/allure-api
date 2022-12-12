@@ -1,28 +1,41 @@
-import ProductModel from "../models/Product";
-import { sanitizeProduct } from "../sanitizers/productSanitizers";
+const Product = require("../models/Product")
 
-// @desc Get all products
-// @conntroller - getProductsController
-export async function getAllProducts() {
+//@desc - serves getProductsHandler @productsController
+const getAllProducts = async () => {
     try {
-        const products = await ProductModel.find();
-        if(!products) throw new Error("Products not found")
+        const products = await Product.find();
+        if (!products) throw new Error("Products not found")
+        return products
     } catch (err) {
-        throw new Error('Error getting products');
+        throw new Error("Error getting products")
+    }
+}
+
+//@desc - serves createProductHandler @productsController
+const createProduct = async (productDetails) => {
+    const newProduct = new Product(productDetails)
+    try {
+        const savedProduct = await newProduct.save();
+        if(!savedProduct) throw new Error("Product not created")
+        return savedProduct;
+    } catch (err) {
+        throw new Error("Error creating product")
     }
 };
 
-// @desc Create a  product
-// @controller - createProductController
-export async function createProduct(product) {
-    const sanitizeProduct = sanitizeProduct(product)
-
+//@desc - serves updateProductHandler @productsController
+const updateProduct = async (id, body) => {
     try {
-        const newProduct = await ProductModel.create(sanitizeProduct);
-        if(!newProduct) throw new Error("Product not created");
-
-        return newProduct;
+        const updatedProduct = await Product.findByIdAndUpdate(id, { $set: body }, {new: true});
+        if(!updatedProduct) throw new Error(`Error, product ${slug} not found`)
+        return updatedProduct;
     } catch (err) {
-        throw new Error("Error creating product");
+        throw new Error("Error creating product")
     }
+};
+
+module.exports = {
+    getAllProducts,
+    createProduct,
+    updateProduct
 }
