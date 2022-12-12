@@ -5,8 +5,26 @@ const { getAllProducts, createProduct, updateProduct, findProduct } = require(".
 //@route /api/v1/products
 //@access Public
 const getProductsHandler = async (req, res) => {
-    const products = await getAllProducts()
-    res.status(200).json(products);
+    const qNew = req.query.new;
+    const qCategory = req.query.category;
+
+    try {
+        let products;
+        if(qNew) {
+            products = await Product.find().sort({ createdAt: -1 }).limit(5);
+        } else if (qCategory) {
+            products = await Product.find({
+                catgories: {
+                    $in: [qCategory]
+                }
+            })
+        } else {
+            products = await getAllProducts()
+        }
+        res.status(200).json(products);
+    } catch (err) {
+        res.status(500).json(err)
+    }
 };
 
 //@desc Create Product - POST

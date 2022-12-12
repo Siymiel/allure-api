@@ -4,6 +4,7 @@ const config = require('./utils/config')
 const cors = require("cors");
 var colors = require('colors')
 const productRoute = require("./routes/productRoute")
+const cartRoute = require('./routes/cartRoute')
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use('/api/v1/products', productRoute)
+app.use('/api/v1/cart', cartRoute)
 
 // mongoose.set('strictQuery', false)
 const log = console.log
