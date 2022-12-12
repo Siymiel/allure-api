@@ -2,8 +2,14 @@ import mongoose from "mongoose"
 
 const UserSchema = new mongoose.Schema(
     {
-        firstname: {},
-        lastname: {},
+        firstname: {
+            type: String,
+            required: true
+        },
+        lastname: {
+            type: String,
+            required: true
+        },
         email: {
             type: String,
             required: true,
@@ -16,10 +22,6 @@ const UserSchema = new mongoose.Schema(
         img: {
             type: String,
         }
-    },
-    {
-        timestamps: true
-    }
-)
+    }, { timestamps: true });
 
-export default UserSchema
+export default UserSchema;

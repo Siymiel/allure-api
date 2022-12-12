@@ -2,7 +2,10 @@ import express from 'express';
 import cors from 'cors'
 import dotenv from 'dotenv'
 import colors from 'colors'
+import mongoose from 'mongoose';
 import { PORT, MONGO_URI } from './utils/config.js';
+
+mongoose.set('strictQuery', true);
 
 const connectDB = async () => {
     if (!MONGO_URI) {
@@ -13,13 +16,13 @@ const connectDB = async () => {
     }
     try {
         await mongoose.connect(MONGO_URI);
-        console.log('MongoDB connected'.blue.underline.bold);
+        console.log('MongoDB connected successfully'.blue.underline.bold);
     } catch (err) {
         console.log(err.message.red.underline.bold);
         process.exit(1);
     }
 };
-// connectDB()
+connectDB()
 
 const app = express();
 
@@ -35,6 +38,6 @@ const log = console.log;
 
 
 app.listen(PORT || 5000, () => {
-    log(`Server running on port: ${PORT}`.blue)
+    log(`Server running on port: ${PORT}`.yellow)
 })
 
