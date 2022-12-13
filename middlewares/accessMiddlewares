@@ -1,0 +1,49 @@
+const { roles} = require("../roles")
+const jwt = require('jsonwebtoken');
+const JWT_SECRET = require('jsonwebtoken')
+const User = require("../models/User");
+
+const grantAccess = function(action, resource) {
+    return async (req, res, next) => {
+        try {
+            const permission = roles.can(req.user.role)[action](resource);
+            if(!permission.granted) {
+                return res.status(401).json({ error: "Unauthorized access" })
+            }
+            next()
+        } catch (err) {
+            next(err)
+        }
+    }
+}
+
+const allowIfLoggedIn = async (req, res, next) => {
+    try {
+        const user = res.locals.loggedInUser;
+        if(!user) return res.status(401).json({ error: "You have to be logged in to continue" });
+        req.user = user;
+        next();
+    } catch (err) {
+        next(err)
+    }
+}
+
+const verifyToken = async (req, res, next) => {
+    if ( req.headers["token"] ) {
+        const accessToken = req.headers["token"];
+        const { userId, exp } = jwt.verify(accessToken, 'JWT_SECRET');
+        if ( exp < Date.now().valueOf() / 1000 ) {
+            return res.status().json({ error: "JWT token has expired, please login to obtain a new one" })
+        }
+        res.locals.loggedInUser = await User.findById(userId);
+        next();
+    } else {
+        next();
+    }
+}
+
+module.exports = {
+    grantAccess,
+    allowIfLoggedIn,
+    verifyToken
+}
