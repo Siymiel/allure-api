@@ -1,10 +1,15 @@
 const router = require("express").Router()
 const { addProduct, updateCartProduct, deleteCartProduct, getCartUser, getAllCart } = require("../controllers/cartController")
+const { allowIfLoggedIn, grantAccess } = require("../middlewares/accessMiddlewares")
 
-router.post('/', addProduct)
-router.get('/', getAllCart)
-router.put("/:id", updateCartProduct)
-router.delete("/:id", deleteCartProduct)
-router.get("/:userId", getCartUser)
+router.route("/")
+.get(allowIfLoggedIn, grantAccess('readOwn', 'cart'), getAllCart)
+.post(allowIfLoggedIn, grantAccess('createOwn', 'cart'), addProduct)
+
+router.route("/:id")
+.put(allowIfLoggedIn, grantAccess('updateOwn', 'cart'), updateCartProduct)
+.delete(allowIfLoggedIn, grantAccess('deleteOwn', 'cart'), deleteCartProduct)
+
+router.get("/:userId", allowIfLoggedIn, getCartUser)
 
 module.exports = router;

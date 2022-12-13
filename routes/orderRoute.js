@@ -1,11 +1,16 @@
 const router = require('express').Router()
-const { getMonthlyIncome, createOrder, updateOrder, deleteOrder, getUserOrders, getAllOrders } = require('../controllers/orderController')
+const { getMonthlyIncome, createOrder, updateOrder, deleteOrder, getUserOrders, getAllOrders } = require('../controllers/orderController');
+const { allowIfLoggedIn, grantAccess } = require("../middlewares/accessMiddlewares")
 
-router.post('/', createOrder)
-router.put('/:id', updateOrder)
-router.delete('/:id', deleteOrder)
-router.get("/:userId", getUserOrders)
-router.get('/', getAllOrders)
-router.get('/income', getMonthlyIncome)
+router.route("/")
+.get(allowIfLoggedIn, grantAccess('readOwn', 'order'), getAllOrders)
+.post(allowIfLoggedIn, grantAccess('createOwn', 'order'), createOrder);
+
+router.route("/:id")
+.put(allowIfLoggedIn, grantAccess('updateOwn', 'order'), updateOrder)
+.delete(allowIfLoggedIn, grantAccess('deleteOwn', 'order'), deleteOrder);
+
+router.get("/:userId", allowIfLoggedIn, grantAccess('readAny', 'user'), getUserOrders)
+router.get('/income', allowIfLoggedIn, grantAccess('createOwn', 'product'), getMonthlyIncome)
 
 module.exports = router;

@@ -1,10 +1,15 @@
 const router = require("express").Router();
 const { createStore, updateStore, deleteStore, getStore, getAllStores, getStoreOwner, getStoreMonthlyIncome } = require("../controllers/storeController")
+const { allowIfLoggedIn, grantAccess } = require("../middlewares/accessMiddlewares")
 
-router.post('/', createStore);
-router.put('/:id', updateStore);
-router.delete('/:id', deleteStore);
-router.get('/', getAllStores);
-router.get(':/id', getStore);
-router.get('/:userId', getStoreOwner);
-router.get("/income", getStoreMonthlyIncome);
+router.route("/")
+.get(allowIfLoggedIn, grantAccess('createOwn', 'store'), createStore)
+.post( grantAccess('readAny', 'store'), getAllStores);
+
+router.route("/:id")
+.get(getStore)
+.put(allowIfLoggedIn, grantAccess('updateOwn', 'store'), updateStore)
+.delete(allowIfLoggedIn, grantAccess('deleteOwn', 'store'), deleteStore);
+
+router.get('/:userId', allowIfLoggedIn, grantAccess('readAny', 'store'), getStoreOwner);
+router.get("/income", allowIfLoggedIn, grantAccess('createOwn', 'store'),  getStoreMonthlyIncome);

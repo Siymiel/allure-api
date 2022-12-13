@@ -7,10 +7,19 @@ exports.roles = (function () {
     .readAny("product")
     .readAny('vendor')
     .readAny('store')
+    .readOwn('cart')
+    .deleteOwn('cart')
     .updateOwn("order")
+    .createOwn('cart')
+    .createOwn("order")
+    .readOwn('order')
 
     ac.grant("vendor")
-    .extend("user")
+    .readAny("product")
+    .readAny('vendor')
+    .readAny("store")
+    .createOwn('product')
+    .createOwn("store")
     .updateOwn("product")
     .updateOwn("store")
     .deleteOwn("product")
@@ -20,11 +29,7 @@ exports.roles = (function () {
     .readAny("user")
     .readAny("store")
     .readAny("order")
-    .updateAny("user", ['status'])
-    .updateAny("order", ['status'])
-    .deleteAny("user")
-    .deleteAny("order")
-    .deleteAny("store")
+    .readAny("product")
 
     return ac;
 })();

@@ -21,7 +21,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(async (req, res, next) => {
-    // console.log("Located in server.js: req.headers", req.headers.token)
  if (req.headers["token"]) {
   const accessToken = req.headers["token"];
   const { userId, exp } = jwt.verify(accessToken, 'JWT_SECRET');
