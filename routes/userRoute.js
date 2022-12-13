@@ -11,4 +11,4 @@ router.get("/", allowIfLoggedIn, grantAccess('readAny', 'user'), getAllUsers);
 router.put("/:id", allowIfLoggedIn, grantAccess('updateAny', 'user'), updateUser);
 router.delete("/:id", allowIfLoggedIn, grantAccess('deleteAny', 'user'), deleteUser); 
 
-module.exports = router;
+module.exports = router;   
