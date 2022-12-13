@@ -53,7 +53,7 @@ const deleteOrder = async (req, res) => {
     try {
         const order = await Order.findByIdAndRemove(req.params.id)
         if(!order) res.status(404).json({ message: 'Order not found' })
-        res.status(200).json(order)
+        res.status(200).json({ message: "Order removed" })
     } catch (err) {
         res.status(500).json(err, { message: "Error deleting order" })
     }

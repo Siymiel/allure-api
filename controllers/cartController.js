@@ -1,7 +1,7 @@
 const Cart = require("../models/Cart")
 
 // Create
-const createCartProduct = async (req, res) => {
+const addProduct = async (req, res) => {
     const newCart = new Cart(req.body)
 
     try {
@@ -29,7 +29,7 @@ const deleteCartProduct = async (req, res) => {
     try {
         const deleteCart = await Cart.findByIdAndRemove(req.params.id)
         if(!deleteCart) res.status(400).json({message: "Product not found"});
-        res.status(200).json(deleteCart)
+        res.status(200).json({ message: "Cart product deleted" })
     } catch (err) {
         res.status(500).json({message: "Could not delete product"}, err)
     }
@@ -38,11 +38,11 @@ const deleteCartProduct = async (req, res) => {
 // Get cart user
 const getCartUser = async (req, res) => {
     try {
-        const cartUser = await Cart.find({ userId: req.user.userId })
+        const cartUser = await Cart.find({ userId: req.params.userId })
         if (!cartUser) res.status(400).json({message: "User not found"})
         res.status(200).json(cartUser)
     } catch (err) {
-        res.status(500).json({message: "Could not get user"}, err)
+        res.status(500).json({message: err})
     }
 }
 
@@ -59,7 +59,7 @@ const getAllCart = async (req, res) => {
 
 
 module.exports = {
-    createCartProduct,
+    addProduct,
     updateCartProduct,
     deleteCartProduct,
     getCartUser,
