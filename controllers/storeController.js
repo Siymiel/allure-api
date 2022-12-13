@@ -69,6 +69,31 @@ const getStoreOwner = async (req, res) => {
 }
 
 // Get Store income
+const getStoreMonthlyIncome = async (req, res) => {
+    const date = new Date();
+    const lastMonth = new Date(date.setMonth(date.getMonth() - 1));
+    const previousMonth = new Date(new Date().setMonth(lastMonth.getMonth() - 1));
+
+    try {
+        const income = await Store.aggregate([
+            {
+                $match: { createdAt: { $gte: previousMonth }}
+            },
+            {
+                $project: { month: { $month: "$createdAt" }, sales: "$amount" }
+            },
+            {
+                $group: {
+                    _id: "$month",
+                    income: { $sum: "$sales" }
+                }
+            }
+        ]);
+        res.status(200).json(income)
+    } catch (err) {
+        res.status(500).json({ message: err })
+    }
+}
 
 
 module.exports = {
@@ -77,5 +102,6 @@ module.exports = {
     deleteStore,
     getStore,
     getAllStores,
-    getStoreOwner
+    getStoreOwner,
+    getStoreMonthlyIncome
 }
