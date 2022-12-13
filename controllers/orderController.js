@@ -1,7 +1,7 @@
 const Order = require("../models/Order")
 
 // GET Monthly Income
-const getMontlyIncome = async (req, res) => {
+const getMonthlyIncome = async (req, res) => {
     const date = new Date();
     const lastMonth = new Date(date.setMonth(date.getMonth() - 1));
     const previousMonth = new Date(new Date().setMonth(lastMonth.getMonth() - 1));
@@ -77,13 +77,13 @@ const getAllOrders = async (req, res) => {
         if (!orders) res.status(404).json({ message: 'Order not found' })
         res.status(200).json(orders)
     } catch (err) {
-        res.status(500).json(err, { message: "Ordes not found" })
+        res.status(500).json(err, { message: "Error getting orders" })
     }
 
 }
 
 module.exports = {
-    getMontlyIncome,
+    getMonthlyIncome,
     createOrder,
     updateOrder,
     deleteOrder,
