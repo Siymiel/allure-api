@@ -2,14 +2,19 @@ const User = require("../models/User")
 const { hashPassword, validatePassword } = require("../services/authService")
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = require('../utils/config')
+const { sanitizeUserOnRegistration } = require("../sanitizers/userSanitizer")
 
 //@method Register
 //@alias Signup
 const register = async (req, res, next) => {
     try {
-        const { firstname, lastname, email, password, role } = req.body;
+        const { password } = req.body;
+        
         const encryptedPassword = await hashPassword(password);
-        const newUser = new User({ firstname, lastname, email, password: encryptedPassword, role: role || 'user' });
+        req.body.password = encryptedPassword
+        const sanitizedUser = sanitizeUserOnRegistration(req.body)  
+
+        const newUser = new User(sanitizedUser);
         const accessToken = jwt.sign({ userId: newUser._id }, 'JWT_SECRET', { expiresIn: '1d' });
         newUser.accessToken = accessToken;
         const savedUser = await newUser.save();
@@ -25,7 +30,8 @@ const register = async (req, res, next) => {
 const login = async (req, res, next) => {
     try {
         const { email, password } = req.body;
-        const user = await User.findOne({ email });
+
+        const user = await User.findOne({email});
         if (!user) next(new Error('Email does not exist'));
         const validPassword = await validatePassword(password, user.password)
         if (!validPassword) next(new Error('Password does not match'));
