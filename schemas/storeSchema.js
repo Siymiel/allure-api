@@ -19,10 +19,6 @@ const StoreSchema = new Schema({
         {
             productId: {
                 type: String,
-            },
-            quantity: {
-                type: Number,
-                default: 1
             }
         }
     ],

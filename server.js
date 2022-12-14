@@ -7,6 +7,7 @@ const productRoute = require("./routes/productRoute")
 const cartRoute = require('./routes/cartRoute')
 const orderRoute = require("./routes/orderRoute")
 const userRoute = require("./routes/userRoute")
+const storeRoute = require("./routes/storeRoute")
 // const { verifyToken } = require("./middlewares/accessMiddlewares")
 const jwt = require('jsonwebtoken');
 const JWT_SECRET = require("./utils/config")
@@ -37,6 +38,7 @@ app.use('/api/v1/products', productRoute)
 app.use('/api/v1/cart', cartRoute)
 app.use('/api/v1/orders', orderRoute)
 app.use('/api/v1/users', userRoute);
+app.use('/api/v1/stores', storeRoute);
 
 const log = console.log
 

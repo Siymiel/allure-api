@@ -18,7 +18,7 @@ if(!config.MONGO_URI) {
     .catch(err => log(err))
 }
 
-const productUsers = [
+const seedProducts = [
     {
         title: "Product 1",
         slug: "product1",
@@ -72,7 +72,7 @@ const productUsers = [
 
 const seedDB = async () => {
     await Product.deleteMany({});
-    await Product.insertMany(productUsers);
+    await Product.insertMany(seedProducts);
     log("Seeding Products Successfull".bgBrightGreen.bold)
 };
 
