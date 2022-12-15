@@ -2,19 +2,16 @@ const User = require("../models/User")
 const { hashPassword, validatePassword } = require("../services/authService")
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = require('../utils/config')
-const { sanitizeUserOnRegistration } = require("../sanitizers/userSanitizer")
 
 //@method Register
 //@alias Signup
 const register = async (req, res, next) => {
     try {
-        const { password } = req.body;
+        const { firstname, lastname, email, role, password } = req.body;
         
         const encryptedPassword = await hashPassword(password);
-        req.body.password = encryptedPassword
-        const sanitizedUser = sanitizeUserOnRegistration(req.body)  
 
-        const newUser = new User(sanitizedUser);
+        const newUser = new User({ firstname, lastname, email, password: encryptedPassword, role: role || "user" });
         const accessToken = jwt.sign({ userId: newUser._id }, 'JWT_SECRET', { expiresIn: '1d' });
         newUser.accessToken = accessToken;
         const savedUser = await newUser.save();

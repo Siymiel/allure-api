@@ -10,7 +10,7 @@ const createStore = async (req, res) => {
         if (!savedStore) res.status(404).json({ message: 'Store not found' })
         res.status(201).json(savedStore)
     } catch (err) {
-        res.status(500).json({message: err})
+        res.status(500).json({ message: err })
     }
 };
 

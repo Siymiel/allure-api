@@ -14,3 +14,12 @@ http: incoming-request {"content_length":"4158","method":"GET","response_time":1
 info: Attempting to get all stores {"timestamp":"2022-12-15T09:24:25.748Z"}
 info: Success: Stores successfully found {"timestamp":"2022-12-15T09:24:25.882Z"}
 http: incoming-request {"content_length":"4158","method":"GET","response_time":137.318,"status":200,"timestamp":"2022-12-15T09:24:25.887Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":331,"method":"POST","response_time":111.965,"status":500,"timestamp":"2022-12-15T11:38:46.757Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":331,"method":"POST","response_time":466.786,"status":500,"timestamp":"2022-12-15T11:39:02.625Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":247,"method":"POST","response_time":146.994,"status":500,"timestamp":"2022-12-15T11:40:26.920Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"495","method":"POST","response_time":323.957,"status":200,"timestamp":"2022-12-15T11:47:54.563Z","url":"/api/v1/users/register"}
+http: incoming-request {"content_length":"253","method":"POST","response_time":354.375,"status":200,"timestamp":"2022-12-15T11:48:24.730Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"503","method":"POST","response_time":240.428,"status":200,"timestamp":"2022-12-15T11:49:41.058Z","url":"/api/v1/users/register"}
+http: incoming-request {"content_length":"257","method":"POST","response_time":327.208,"status":200,"timestamp":"2022-12-15T11:50:02.391Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"258","method":"POST","response_time":415.817,"status":200,"timestamp":"2022-12-15T12:06:23.797Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"1924","method":"GET","response_time":226.979,"status":200,"timestamp":"2022-12-15T12:06:44.392Z","url":"/api/v1/users/"}
