@@ -11,8 +11,7 @@ const storeRoute = require("./routes/storeRoute")
 const jwt = require('jsonwebtoken');
 const JWT_SECRET = require("./utils/config")
 const User = require("./models/User")
-const logger = require("./utils/winston")
-var morgan = require('morgan')
+const morganMiddleware = require('./utils/morgan')
 
 const app = express();
 
@@ -21,27 +20,6 @@ colors.enable()
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-
-const morganMiddleware = morgan(
-  function (tokens, req, res) {
-    return JSON.stringify({
-      method: tokens.method(req, res),
-      url: tokens.url(req, res),
-      status: Number.parseFloat(tokens.status(req, res)),
-      content_length: tokens.res(req, res, 'content-length'),
-      response_time: Number.parseFloat(tokens['response-time'](req, res)),
-    });
-  },
-  {
-    stream: {
-      // Configure Morgan to use our custom logger with the http severity
-      write: (message) => {
-        const data = JSON.parse(message);
-        logger.http(`incoming-request`, data);
-      },
-    },
-  }
-);
 
 app.use(morganMiddleware)
 
@@ -66,20 +44,18 @@ app.use('/api/v1/orders', orderRoute)
 app.use('/api/v1/users', userRoute);
 app.use('/api/v1/stores', storeRoute);
 
-const { log }= console;
-
 // Mongo connection and server start 
 if(!config.MONGO_URI) {
-    log("MONGO_URI not found in .env file")
+    console.log("MONGO_URI not found in .env file")
 } else {
     mongoose
     .connect(config.MONGO_URI)
     .then(() => {
-        log('DB Connection Successfull'.green);
+        console.log('DB Connection Established'.bgBlue.bold);
         app.listen(config.PORT || 8080, () => {
-            log(`Server is running on port: ${config.PORT}`.yellow);
+            console.log(`Server is running on PORT: ${config.PORT}`.bgGreen.bold.underline);
         });
     })
-    .catch(err => log(err))
+    .catch(err => console.log(err))
 }
 

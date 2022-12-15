@@ -22,7 +22,7 @@ const getProductsHandler = async (req, res) => {
         } else {
             products = await getAllProducts()
         }
-        
+
         if (!products) res.status(404).json({ message: "No products found" })
         res.status(200).json(products);
     } catch (err) {

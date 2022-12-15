@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "E:\\projects\\allure\\server\\logs\\.3715dae81fa1bde225088498016ff90a56f96d7b-audit.json",
+    "files": [
+        {
+            "date": 1671095924541,
+            "name": "E:\\projects\\allure\\server\\logs\\info-2022-12-15.log",
+            "hash": "eb14392ba46eee32066c36f41513b072fd5fc84c1a8e88c589d91a4036cf0529"
+        }
+    ],
+    "hashType": "sha256"
+}

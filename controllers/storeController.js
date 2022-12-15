@@ -1,4 +1,5 @@
 const Store = require("../models/Store")
+const logger = require('../utils/winston')
 
 // Create
 const createStore = async (req, res) => {
@@ -49,9 +50,14 @@ const getStore = async (req, res) => {
 // Get all stores
 const getAllStores = async (req, res) => {
     try {
+        logger.info("Attempting to get all stores")
         const stores = await Store.find()
-        if (!stores) res.status(404).json({ message: 'Stores not found' })
+        if (!stores) {
+            res.status(404).json({ message: 'Stores not found' })
+            logger.error("Error: No stores found")
+        }
         res.status(200).json(stores)
+        logger.info("Success: Stores successfully found")
     } catch (err) {
         res.status(500).json({ message: err })
     }
