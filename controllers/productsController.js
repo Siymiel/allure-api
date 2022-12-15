@@ -44,7 +44,7 @@ const createProductHandler = async (req, res) => {
 const updateProductHandler = async (req, res) => {
     try {
         const updatedProduct = await Product.findByIdAndUpdate(req.params.id, { $set: req.body }, {new: true});
-        if(!updatedProduct) throw new Error(`Error, product ${slug} not found`);
+        if(!updatedProduct) throw new Error(`Error, product ${req.params.id} not found`);
         res.status(200).json(updatedProduct);
     } catch (err) {
         throw new Error("Error updating product");

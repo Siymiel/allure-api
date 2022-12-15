@@ -3,10 +3,6 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
 const StoreSchema = new Schema({
-    userId: {
-        type: String,
-        required: true
-    },
     name: {
         type: String,
         required: true
@@ -15,13 +11,6 @@ const StoreSchema = new Schema({
         type: String,
         required: true
     },
-    products: [
-        {
-            productId: {
-                type: String,
-            }
-        }
-    ],
     image: {
         type: String,
         required: true
@@ -29,7 +18,11 @@ const StoreSchema = new Schema({
     status: {
         type: String,
         default: "pending"
-    }
+    },
+    vendor: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+    },
 }, { timestamps: true})
 
 module.exports = StoreSchema

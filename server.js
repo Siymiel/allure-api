@@ -8,6 +8,7 @@ const cartRoute = require('./routes/cartRoute')
 const orderRoute = require("./routes/orderRoute")
 const userRoute = require("./routes/userRoute")
 const storeRoute = require("./routes/storeRoute")
+const categoryRoute = require("./routes/categoryRoute")
 const morganMiddleware = require('./utils/morgan')
 const JWT_SECRET = require("./utils/config")
 const User = require("./models/User")
@@ -42,6 +43,7 @@ app.use('/api/v1/cart', cartRoute)
 app.use('/api/v1/orders', orderRoute)
 app.use('/api/v1/users', userRoute);
 app.use('/api/v1/stores', storeRoute);
+app.use('/api/v1/categories', categoryRoute);
 
 // Mongo connection and server start 
 if(!config.MONGO_URI) {

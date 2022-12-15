@@ -23,21 +23,21 @@ const seedUsers = [
         firstname: "admin",
         lastname: "doe",
         email: "admin@example.com",
-        password: "password",
+        password: "$2b$10$yXh3kmCpOJ6zsv5cFjKSD.t26eno6MlLhGB3xFHWghIqFv6yLcpPC",
         role: "admin"
     },
     {
         firstname: "vendor",
         lastname: "doe",
         email: "vendor@example.com",
-        password: "password",
+        password: "$2b$10$yXh3kmCpOJ6zsv5cFjKSD.t26eno6MlLhGB3xFHWghIqFv6yLcpPC",
         role: "vendor"
     },
     {
         firstname: "user",
         lastname: "doe",
         email: "user@example.com",
-        password: "password",
+        password: "$2b$10$yXh3kmCpOJ6zsv5cFjKSD.t26eno6MlLhGB3xFHWghIqFv6yLcpPC",
         role: "user"
     }
 ];
