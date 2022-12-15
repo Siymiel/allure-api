@@ -1,5 +1,6 @@
 const Product = require("../models/Product")
-const { getAllProducts, createProduct, updateProduct, findProduct } = require("../services/productService")
+const { getAllProducts, createProduct, updateProduct, findProduct } = require("../services/productService");
+const logger = require("../utils/winston");
 
 //@desc GET all Products
 //@route /api/v1/products
@@ -21,6 +22,8 @@ const getProductsHandler = async (req, res) => {
         } else {
             products = await getAllProducts()
         }
+        
+        if (!products) res.status(404).json({ message: "No products found" })
         res.status(200).json(products);
     } catch (err) {
         res.status(500).json(err)
