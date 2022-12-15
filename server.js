@@ -8,10 +8,10 @@ const cartRoute = require('./routes/cartRoute')
 const orderRoute = require("./routes/orderRoute")
 const userRoute = require("./routes/userRoute")
 const storeRoute = require("./routes/storeRoute")
-const jwt = require('jsonwebtoken');
+const morganMiddleware = require('./utils/morgan')
 const JWT_SECRET = require("./utils/config")
 const User = require("./models/User")
-const morganMiddleware = require('./utils/morgan')
+const jwt = require('jsonwebtoken');
 
 const app = express();
 
@@ -23,7 +23,6 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(morganMiddleware)
 
-// Verify token - JWT
 app.use(async (req, res, next) => {
  if (req.headers["token"]) {
   const accessToken = req.headers["token"];

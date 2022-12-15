@@ -19,7 +19,7 @@ const register = async (req, res, next) => {
         newUser.accessToken = accessToken;
         const savedUser = await newUser.save();
 
-        res.status(200).json({ data: savedUser })
+        res.status(200).json({ success: 1, data: savedUser })
     } catch (err) {
         next(err)
     }
@@ -39,6 +39,7 @@ const login = async (req, res, next) => {
         await User.findByIdAndUpdate(user._id, { accessToken });
 
         res.status(200).json({
+            success: 1,
             data: { email: user.email, role: user.role },
             accessToken
         });
@@ -53,9 +54,9 @@ const logout = async (req, res) => {
     try {
         const user = await User.findOne({ email: email });
         if (!user) return res.status(404).json({ message: 'User not found' });
-        res.status(200).json("User logged out");
+        res.status(200).json({ message: "User logged out" });
     } catch (err) {
-        res.status(500).json({ error: "Error logging out"})
+        res.status(500).json({ error: "Error logging out" })
     }
 }
  

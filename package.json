@@ -9,6 +9,7 @@
   "author": "Samuel Kinuthia",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "accesscontrol": "^2.2.1",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
