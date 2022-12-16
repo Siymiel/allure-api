@@ -30,6 +30,10 @@ exports.roles = (function () {
     .readAny("store")
     .readAny("order")
     .readAny("product")
+    .readAny("category")
+    .createAny("category")
+    .updateAny("category")
+    .deleteAny("category")
 
     return ac;
 })();

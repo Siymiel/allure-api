@@ -1,13 +1,15 @@
 const router = require('express').Router()
 const { createCategory, updateCategory, deleteCategory, getCategories, getCategory } = require('../controllers/categoryControllers')
+const { allowIfLoggedIn, grantAccess } = require("../middlewares/accessMiddlewares")
+const {addCategoryValidation} = require("../validation/category/category.validation")
 
 router.route('/')
 .get(getCategories)
-.post(createCategory)
+.post(allowIfLoggedIn, grantAccess('createAny', 'category'), addCategoryValidation, createCategory)
 
 router.route('/:id')
-.get(getCategory)
-.put(updateCategory)
-.delete(deleteCategory)
+.get(allowIfLoggedIn, grantAccess('readAny', 'category'), getCategory)
+.put(allowIfLoggedIn, grantAccess('updateAny', 'category'), updateCategory)
+.delete(allowIfLoggedIn, grantAccess('deleteAny', 'category'), deleteCategory)
 
 module.exports = router
