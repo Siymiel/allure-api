@@ -5,7 +5,7 @@ const { allowIfLoggedIn, grantAccess } = require("../middlewares/accessMiddlewar
 
 router.post("/register", register);
 router.post("/login", login);
-router.post("/logout", allowIfLoggedIn, logout);
+router.post("/logout", logout);
 router.get("/:id", allowIfLoggedIn, getUserById);
 router.get("/", allowIfLoggedIn, grantAccess('readAny', 'user'), getAllUsers);
 router.put("/:id", allowIfLoggedIn, grantAccess('updateAny', 'user'), updateUser);

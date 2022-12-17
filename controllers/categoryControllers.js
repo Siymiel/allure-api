@@ -39,9 +39,9 @@ const deleteCategory = async (req, res, next) => {
 
 const getCategories = async (req, res, next) => { 
     try {
-        const categories = await Category.find().select(["name", "desc", "products", "isActive", "_id"])
+        const categories = await Category.find().select(["name", "desc", "products", "isActive", "image", "_id"])
         if (!categories) throw new Error("Categories not found")
-        res.status(200).json({success: 1, data: categories})
+        res.status(200).json({success: 1, categories})
     } catch (err) {
         next(err)
     }

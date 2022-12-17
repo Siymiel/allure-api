@@ -2,11 +2,13 @@ const User = require("../models/User")
 const { hashPassword, validatePassword } = require("../services/authService")
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = require('../utils/config')
+const logger = require('../utils/winston')
 
 //@method Register
 //@alias Signup
 const register = async (req, res, next) => {
     try {
+        logger.info("Logging attempt")
         const { firstname, lastname, email, role, password } = req.body;
         
         const encryptedPassword = await hashPassword(password);
@@ -17,6 +19,7 @@ const register = async (req, res, next) => {
         const savedUser = await newUser.save();
 
         res.status(200).json({ success: 1, data: savedUser })
+        logger.info("Success: Logging in")
     } catch (err) {
         next(err)
     }
@@ -37,7 +40,9 @@ const login = async (req, res, next) => {
 
         res.status(200).json({
             success: 1,
-            data: { email: user.email, role: user.role },
+            firstname: user.firstname,
+            email: user.email, 
+            role: user.role ,
             accessToken
         });
     } catch (err) {

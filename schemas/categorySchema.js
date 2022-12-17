@@ -9,15 +9,18 @@ const categorySchema = mongoose.Schema({
         type: String,
         required: true
     },
-    isActive: {
-        type: Boolean,
-        default: true
+    image: {
+        type: String,
+        required: true
     },
     products: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Product',
+    },
+    isActive: {
+        type: Boolean,
+        default: true
     }
-
 }, { timestamps: true });
 
 module.exports = categorySchema

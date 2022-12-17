@@ -15,6 +15,10 @@ const StoreSchema = new Schema({
         type: String,
         required: true
     },
+    logo: {
+        type: String,
+        required: true
+    },
     status: {
         type: String,
         default: "pending"
@@ -23,6 +27,10 @@ const StoreSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
     },
+    products: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product"
+    }
 }, { timestamps: true})
 
 module.exports = StoreSchema

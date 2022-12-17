@@ -28,3 +28,775 @@ http: incoming-request {"content_length":"356","method":"POST","response_time":2
 http: incoming-request {"content_length":"52","method":"DELETE","response_time":183.549,"status":200,"timestamp":"2022-12-16T05:20:59.947Z","url":"/api/v1/categories/639c001f8d18937b407f327b"}
 http: incoming-request {"content_length":"356","method":"POST","response_time":236.286,"status":201,"timestamp":"2022-12-16T05:21:23.091Z","url":"/api/v1/categories"}
 http: incoming-request {"content_length":"367","method":"PUT","response_time":216.263,"status":200,"timestamp":"2022-12-16T05:24:11.456Z","url":"/api/v1/categories/639c0052f07330d4a5fb69cf"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T07:09:51.860Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T07:09:52.565Z"}
+http: incoming-request {"content_length":"3636","method":"GET","response_time":769.502,"status":200,"timestamp":"2022-12-16T07:09:52.583Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T07:09:58.863Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T07:09:58.964Z"}
+http: incoming-request {"method":"GET","response_time":100.558,"status":304,"timestamp":"2022-12-16T07:09:58.968Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":152,"method":"POST","response_time":4.224,"status":404,"timestamp":"2022-12-16T07:31:33.362Z","url":"/api/v1/login"}
+http: incoming-request {"content_length":152,"method":"POST","response_time":2.829,"status":404,"timestamp":"2022-12-16T07:34:50.084Z","url":"/api/v1/login"}
+http: incoming-request {"content_length":331,"method":"POST","response_time":100.237,"status":500,"timestamp":"2022-12-16T07:34:59.413Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"258","method":"POST","response_time":435.113,"status":200,"timestamp":"2022-12-16T07:40:27.734Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"249","method":"POST","response_time":347.705,"status":200,"timestamp":"2022-12-16T07:42:56.848Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":382.457,"status":200,"timestamp":"2022-12-16T07:45:19.048Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":313.026,"status":200,"timestamp":"2022-12-16T07:46:52.259Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":3.439,"status":404,"timestamp":"2022-12-16T07:58:16.397Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.95,"status":404,"timestamp":"2022-12-16T07:58:37.209Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.727,"status":404,"timestamp":"2022-12-16T07:58:38.248Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.491,"status":404,"timestamp":"2022-12-16T07:58:49.897Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.66,"status":404,"timestamp":"2022-12-16T07:58:50.953Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.468,"status":404,"timestamp":"2022-12-16T07:59:20.302Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.82,"status":404,"timestamp":"2022-12-16T07:59:21.585Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.546,"status":404,"timestamp":"2022-12-16T07:59:50.971Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.035,"status":404,"timestamp":"2022-12-16T07:59:52.006Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.813,"status":404,"timestamp":"2022-12-16T08:00:24.768Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.538,"status":404,"timestamp":"2022-12-16T08:00:30.961Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.511,"status":404,"timestamp":"2022-12-16T08:00:40.663Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.83,"status":404,"timestamp":"2022-12-16T08:01:10.980Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.766,"status":404,"timestamp":"2022-12-16T08:01:12.018Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.544,"status":404,"timestamp":"2022-12-16T08:01:23.341Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.446,"status":404,"timestamp":"2022-12-16T08:01:31.076Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.695,"status":404,"timestamp":"2022-12-16T08:01:56.564Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.526,"status":404,"timestamp":"2022-12-16T08:01:57.912Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.709,"status":404,"timestamp":"2022-12-16T08:02:17.918Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.879,"status":404,"timestamp":"2022-12-16T08:02:18.998Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.431,"status":404,"timestamp":"2022-12-16T08:02:27.379Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.431,"status":404,"timestamp":"2022-12-16T08:02:28.421Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.97,"status":404,"timestamp":"2022-12-16T08:02:28.959Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":323.719,"status":200,"timestamp":"2022-12-16T08:02:33.291Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.393,"status":404,"timestamp":"2022-12-16T08:03:11.831Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.486,"status":404,"timestamp":"2022-12-16T08:03:25.910Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.839,"status":404,"timestamp":"2022-12-16T08:03:41.859Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.422,"status":404,"timestamp":"2022-12-16T08:03:42.932Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.422,"status":404,"timestamp":"2022-12-16T08:04:04.212Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.421,"status":404,"timestamp":"2022-12-16T08:04:07.339Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.384,"status":404,"timestamp":"2022-12-16T08:04:27.194Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.388,"status":404,"timestamp":"2022-12-16T08:04:28.229Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":323.402,"status":200,"timestamp":"2022-12-16T08:05:18.529Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":323.325,"status":200,"timestamp":"2022-12-16T08:05:18.563Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":338.142,"status":200,"timestamp":"2022-12-16T08:05:18.784Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.4,"status":404,"timestamp":"2022-12-16T08:05:26.422Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.715,"status":404,"timestamp":"2022-12-16T08:05:26.510Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.374,"status":404,"timestamp":"2022-12-16T08:05:28.629Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":341.875,"status":200,"timestamp":"2022-12-16T08:05:28.796Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.47,"status":404,"timestamp":"2022-12-16T08:05:29.993Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.388,"status":404,"timestamp":"2022-12-16T08:05:58.728Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.402,"status":404,"timestamp":"2022-12-16T08:06:00.088Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.403,"status":404,"timestamp":"2022-12-16T08:06:31.247Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.671,"status":404,"timestamp":"2022-12-16T08:06:32.307Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.439,"status":404,"timestamp":"2022-12-16T08:07:26.442Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.393,"status":404,"timestamp":"2022-12-16T08:07:31.311Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.489,"status":404,"timestamp":"2022-12-16T08:07:41.274Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.625,"status":404,"timestamp":"2022-12-16T08:07:46.122Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.408,"status":404,"timestamp":"2022-12-16T08:08:09.633Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.385,"status":404,"timestamp":"2022-12-16T08:08:14.644Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.627,"status":404,"timestamp":"2022-12-16T08:08:33.742Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.422,"status":404,"timestamp":"2022-12-16T08:08:34.780Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.447,"status":404,"timestamp":"2022-12-16T08:09:34.543Z","url":"/logo512.png"}
+http: incoming-request {"content_length":385,"method":"POST","response_time":86.226,"status":500,"timestamp":"2022-12-16T08:09:37.390Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.472,"status":404,"timestamp":"2022-12-16T08:10:04.835Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.413,"status":404,"timestamp":"2022-12-16T08:10:06.889Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.409,"status":404,"timestamp":"2022-12-16T08:10:36.890Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.384,"status":404,"timestamp":"2022-12-16T08:10:38.862Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.229,"status":404,"timestamp":"2022-12-16T08:12:13.887Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.38,"status":404,"timestamp":"2022-12-16T08:12:19.348Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.199,"status":404,"timestamp":"2022-12-16T08:12:30.342Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.38,"status":404,"timestamp":"2022-12-16T08:12:31.409Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.406,"status":404,"timestamp":"2022-12-16T08:13:08.185Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.381,"status":404,"timestamp":"2022-12-16T08:13:09.218Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.408,"status":404,"timestamp":"2022-12-16T08:13:22.492Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":318.701,"status":200,"timestamp":"2022-12-16T08:13:26.095Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.436,"status":404,"timestamp":"2022-12-16T08:13:39.486Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.6,"status":404,"timestamp":"2022-12-16T08:13:40.527Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.784,"status":404,"timestamp":"2022-12-16T08:13:46.774Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.387,"status":404,"timestamp":"2022-12-16T08:13:48.131Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.712,"status":404,"timestamp":"2022-12-16T08:14:16.546Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.416,"status":404,"timestamp":"2022-12-16T08:14:17.650Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.398,"status":404,"timestamp":"2022-12-16T08:14:25.918Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.448,"status":404,"timestamp":"2022-12-16T08:14:26.951Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.525,"status":404,"timestamp":"2022-12-16T08:14:43.900Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.4,"status":404,"timestamp":"2022-12-16T08:14:44.937Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.422,"status":404,"timestamp":"2022-12-16T08:15:36.922Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.358,"status":404,"timestamp":"2022-12-16T08:15:37.955Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.41,"status":404,"timestamp":"2022-12-16T08:15:45.395Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.415,"status":404,"timestamp":"2022-12-16T08:15:46.438Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.732,"status":404,"timestamp":"2022-12-16T08:16:25.952Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.395,"status":404,"timestamp":"2022-12-16T08:16:26.985Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.81,"status":404,"timestamp":"2022-12-16T08:16:47.208Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.381,"status":404,"timestamp":"2022-12-16T08:16:48.292Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.375,"status":404,"timestamp":"2022-12-16T08:16:50.618Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.585,"status":404,"timestamp":"2022-12-16T08:16:52.565Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.398,"status":404,"timestamp":"2022-12-16T08:17:27.917Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.378,"status":404,"timestamp":"2022-12-16T08:17:29.568Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.42,"status":404,"timestamp":"2022-12-16T08:17:34.934Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.367,"status":404,"timestamp":"2022-12-16T08:17:36.589Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.408,"status":404,"timestamp":"2022-12-16T08:17:49.830Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.369,"status":404,"timestamp":"2022-12-16T08:17:51.557Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.465,"status":404,"timestamp":"2022-12-16T08:18:32.402Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.366,"status":404,"timestamp":"2022-12-16T08:18:33.553Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.38,"status":404,"timestamp":"2022-12-16T08:18:38.610Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.639,"status":404,"timestamp":"2022-12-16T08:18:40.570Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.358,"status":404,"timestamp":"2022-12-16T08:18:47.297Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.374,"status":404,"timestamp":"2022-12-16T08:18:48.556Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.372,"status":404,"timestamp":"2022-12-16T08:18:55.903Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.501,"status":404,"timestamp":"2022-12-16T08:18:57.548Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.404,"status":404,"timestamp":"2022-12-16T08:19:05.891Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.421,"status":404,"timestamp":"2022-12-16T08:19:07.557Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.416,"status":404,"timestamp":"2022-12-16T08:19:10.720Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.401,"status":404,"timestamp":"2022-12-16T08:19:12.559Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.575,"status":404,"timestamp":"2022-12-16T08:19:17.901Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.361,"status":404,"timestamp":"2022-12-16T08:19:19.590Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.577,"status":404,"timestamp":"2022-12-16T08:19:25.974Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.408,"status":404,"timestamp":"2022-12-16T08:19:27.561Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.408,"status":404,"timestamp":"2022-12-16T08:19:48.052Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.644,"status":404,"timestamp":"2022-12-16T08:19:49.091Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.396,"status":404,"timestamp":"2022-12-16T08:20:19.416Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.576,"status":404,"timestamp":"2022-12-16T08:20:20.464Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.706,"status":404,"timestamp":"2022-12-16T08:20:49.492Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.357,"status":404,"timestamp":"2022-12-16T08:20:50.524Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.395,"status":404,"timestamp":"2022-12-16T08:20:55.914Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.118,"status":404,"timestamp":"2022-12-16T08:20:57.566Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.62,"status":404,"timestamp":"2022-12-16T08:21:26.129Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.378,"status":404,"timestamp":"2022-12-16T08:21:27.550Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.406,"status":404,"timestamp":"2022-12-16T08:21:51.281Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.369,"status":404,"timestamp":"2022-12-16T08:21:52.546Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.36,"status":404,"timestamp":"2022-12-16T08:21:55.897Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.672,"status":404,"timestamp":"2022-12-16T08:21:57.547Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.376,"status":404,"timestamp":"2022-12-16T08:22:26.250Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.44,"status":404,"timestamp":"2022-12-16T08:22:27.557Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.414,"status":404,"timestamp":"2022-12-16T08:22:52.358Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.502,"status":404,"timestamp":"2022-12-16T08:22:53.555Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.375,"status":404,"timestamp":"2022-12-16T08:23:06.914Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.73,"status":404,"timestamp":"2022-12-16T08:23:08.479Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.414,"status":404,"timestamp":"2022-12-16T08:23:37.211Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.407,"status":404,"timestamp":"2022-12-16T08:23:38.552Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.364,"status":404,"timestamp":"2022-12-16T08:23:40.883Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.646,"status":404,"timestamp":"2022-12-16T08:24:08.716Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.362,"status":404,"timestamp":"2022-12-16T08:24:13.412Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.89,"status":404,"timestamp":"2022-12-16T08:24:17.127Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.366,"status":404,"timestamp":"2022-12-16T08:24:26.245Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.382,"status":404,"timestamp":"2022-12-16T08:24:27.555Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.613,"status":404,"timestamp":"2022-12-16T08:24:44.472Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.374,"status":404,"timestamp":"2022-12-16T08:24:47.586Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.633,"status":404,"timestamp":"2022-12-16T08:24:47.927Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":361.31,"status":200,"timestamp":"2022-12-16T08:24:49.869Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.732,"status":404,"timestamp":"2022-12-16T08:25:01.051Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.395,"status":404,"timestamp":"2022-12-16T08:25:02.408Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.719,"status":404,"timestamp":"2022-12-16T08:25:04.625Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.562,"status":404,"timestamp":"2022-12-16T08:25:08.606Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.402,"status":404,"timestamp":"2022-12-16T08:25:09.955Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.845,"status":404,"timestamp":"2022-12-16T08:25:56.728Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.4,"status":404,"timestamp":"2022-12-16T08:25:58.069Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.807,"status":404,"timestamp":"2022-12-16T08:26:28.104Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.431,"status":404,"timestamp":"2022-12-16T08:26:29.492Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":309.458,"status":200,"timestamp":"2022-12-16T08:26:47.438Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.639,"status":404,"timestamp":"2022-12-16T08:27:05.665Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:27:09.243Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:27:09.433Z"}
+http: incoming-request {"method":"GET","response_time":191.752,"status":304,"timestamp":"2022-12-16T08:27:09.518Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":311.343,"status":200,"timestamp":"2022-12-16T08:27:24.151Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.463,"status":404,"timestamp":"2022-12-16T08:28:00.387Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.043,"status":404,"timestamp":"2022-12-16T08:28:01.458Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.633,"status":404,"timestamp":"2022-12-16T08:28:32.365Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.452,"status":404,"timestamp":"2022-12-16T08:28:33.393Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.403,"status":404,"timestamp":"2022-12-16T08:29:12.155Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.364,"status":404,"timestamp":"2022-12-16T08:29:14.068Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.631,"status":404,"timestamp":"2022-12-16T08:30:04.315Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.648,"status":404,"timestamp":"2022-12-16T08:30:11.198Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.392,"status":404,"timestamp":"2022-12-16T08:30:35.455Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.377,"status":404,"timestamp":"2022-12-16T08:30:36.532Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.378,"status":404,"timestamp":"2022-12-16T08:31:05.483Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.576,"status":404,"timestamp":"2022-12-16T08:31:06.876Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.548,"status":404,"timestamp":"2022-12-16T08:31:11.606Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.378,"status":404,"timestamp":"2022-12-16T08:31:13.876Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:32:18.889Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:32:19.006Z"}
+http: incoming-request {"method":"GET","response_time":116.037,"status":304,"timestamp":"2022-12-16T08:32:19.026Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.672,"status":404,"timestamp":"2022-12-16T08:32:19.658Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.373,"status":404,"timestamp":"2022-12-16T08:32:38.364Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.593,"status":404,"timestamp":"2022-12-16T08:32:40.028Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:32:52.447Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:32:52.537Z"}
+http: incoming-request {"method":"GET","response_time":89.198,"status":304,"timestamp":"2022-12-16T08:32:52.538Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:32:54.183Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:32:54.273Z"}
+http: incoming-request {"method":"GET","response_time":90.406,"status":304,"timestamp":"2022-12-16T08:32:54.274Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:32:54.719Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:32:54.809Z"}
+http: incoming-request {"method":"GET","response_time":90.325,"status":304,"timestamp":"2022-12-16T08:32:54.811Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:33:04.145Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:33:04.236Z"}
+http: incoming-request {"method":"GET","response_time":90.465,"status":304,"timestamp":"2022-12-16T08:33:04.281Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:33:05.398Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:33:05.486Z"}
+http: incoming-request {"method":"GET","response_time":88.044,"status":304,"timestamp":"2022-12-16T08:33:05.488Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:33:06.281Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:33:06.638Z"}
+http: incoming-request {"method":"GET","response_time":357.367,"status":304,"timestamp":"2022-12-16T08:33:06.639Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:33:06.654Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:33:07.192Z"}
+http: incoming-request {"method":"GET","response_time":86.993,"status":304,"timestamp":"2022-12-16T08:33:07.244Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.903,"status":404,"timestamp":"2022-12-16T08:34:22.164Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.366,"status":404,"timestamp":"2022-12-16T08:34:23.568Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.492,"status":404,"timestamp":"2022-12-16T08:34:46.825Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.366,"status":404,"timestamp":"2022-12-16T08:34:48.551Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:35:32.979Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:35:33.066Z"}
+http: incoming-request {"method":"GET","response_time":114.55,"status":304,"timestamp":"2022-12-16T08:35:33.081Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.634,"status":404,"timestamp":"2022-12-16T08:36:14.571Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.375,"status":404,"timestamp":"2022-12-16T08:36:17.483Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.432,"status":404,"timestamp":"2022-12-16T08:36:26.756Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.62,"status":404,"timestamp":"2022-12-16T08:36:30.665Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.446,"status":404,"timestamp":"2022-12-16T08:37:05.419Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.735,"status":404,"timestamp":"2022-12-16T08:37:09.788Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:37:12.179Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:37:12.285Z"}
+http: incoming-request {"method":"GET","response_time":105.747,"status":304,"timestamp":"2022-12-16T08:37:12.286Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.751,"status":404,"timestamp":"2022-12-16T08:37:27.523Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":19.697,"status":404,"timestamp":"2022-12-16T08:37:32.679Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.386,"status":404,"timestamp":"2022-12-16T08:37:37.376Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.395,"status":404,"timestamp":"2022-12-16T08:37:53.602Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.353,"status":404,"timestamp":"2022-12-16T08:37:54.999Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.263,"status":404,"timestamp":"2022-12-16T08:37:59.066Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.727,"status":404,"timestamp":"2022-12-16T08:38:00.445Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.688,"status":404,"timestamp":"2022-12-16T08:38:02.038Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":33.404,"status":404,"timestamp":"2022-12-16T08:38:06.478Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.368,"status":404,"timestamp":"2022-12-16T08:38:10.778Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.356,"status":404,"timestamp":"2022-12-16T08:38:32.122Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.85,"status":404,"timestamp":"2022-12-16T08:38:33.203Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.383,"status":404,"timestamp":"2022-12-16T08:39:02.889Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.404,"status":404,"timestamp":"2022-12-16T08:39:04.566Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.372,"status":404,"timestamp":"2022-12-16T08:39:06.940Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.39,"status":404,"timestamp":"2022-12-16T08:39:08.550Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.432,"status":404,"timestamp":"2022-12-16T08:39:37.185Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.621,"status":404,"timestamp":"2022-12-16T08:39:38.264Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.371,"status":404,"timestamp":"2022-12-16T08:40:08.582Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.441,"status":404,"timestamp":"2022-12-16T08:40:16.562Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.66,"status":404,"timestamp":"2022-12-16T08:40:19.891Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.364,"status":404,"timestamp":"2022-12-16T08:40:35.485Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.371,"status":404,"timestamp":"2022-12-16T08:40:39.944Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":33.318,"status":404,"timestamp":"2022-12-16T08:40:52.715Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.781,"status":404,"timestamp":"2022-12-16T08:40:55.535Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":15.875,"status":404,"timestamp":"2022-12-16T08:41:07.693Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":11.977,"status":404,"timestamp":"2022-12-16T08:41:08.757Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.423,"status":404,"timestamp":"2022-12-16T08:41:22.628Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.417,"status":404,"timestamp":"2022-12-16T08:41:25.154Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.375,"status":404,"timestamp":"2022-12-16T08:41:32.918Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":2.174,"status":404,"timestamp":"2022-12-16T08:41:33.961Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.376,"status":404,"timestamp":"2022-12-16T08:41:55.057Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.354,"status":404,"timestamp":"2022-12-16T08:41:56.357Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.366,"status":404,"timestamp":"2022-12-16T08:42:12.772Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.521,"status":404,"timestamp":"2022-12-16T08:42:19.402Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.421,"status":404,"timestamp":"2022-12-16T08:42:26.109Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.506,"status":404,"timestamp":"2022-12-16T08:42:27.776Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.581,"status":404,"timestamp":"2022-12-16T08:42:38.515Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.729,"status":404,"timestamp":"2022-12-16T08:42:39.589Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.369,"status":404,"timestamp":"2022-12-16T08:42:40.863Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:42:43.413Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:42:43.698Z"}
+http: incoming-request {"method":"GET","response_time":278.123,"status":304,"timestamp":"2022-12-16T08:42:43.861Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.525,"status":404,"timestamp":"2022-12-16T08:42:44.183Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"48","method":"POST","response_time":15.684,"status":401,"timestamp":"2022-12-16T08:42:47.823Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.777,"status":404,"timestamp":"2022-12-16T08:43:09.605Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.369,"status":404,"timestamp":"2022-12-16T08:43:10.951Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.525,"status":404,"timestamp":"2022-12-16T08:43:26.476Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.615,"status":404,"timestamp":"2022-12-16T08:43:27.870Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":5.611,"status":404,"timestamp":"2022-12-16T08:44:36.612Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.849,"status":404,"timestamp":"2022-12-16T08:44:37.955Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.102,"status":404,"timestamp":"2022-12-16T08:44:42.988Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":105.69,"status":200,"timestamp":"2022-12-16T08:44:44.252Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.719,"status":404,"timestamp":"2022-12-16T08:44:44.377Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.727,"status":404,"timestamp":"2022-12-16T08:44:55.777Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.494,"status":404,"timestamp":"2022-12-16T08:44:57.121Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.532,"status":404,"timestamp":"2022-12-16T08:45:13.044Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.841,"status":404,"timestamp":"2022-12-16T08:45:14.387Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.912,"status":404,"timestamp":"2022-12-16T08:45:26.097Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.536,"status":404,"timestamp":"2022-12-16T08:45:27.444Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.732,"status":404,"timestamp":"2022-12-16T08:45:34.590Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.561,"status":404,"timestamp":"2022-12-16T08:45:35.923Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.515,"status":404,"timestamp":"2022-12-16T08:46:35.625Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.809,"status":404,"timestamp":"2022-12-16T08:46:37.036Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.768,"status":404,"timestamp":"2022-12-16T08:46:45.411Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.761,"status":404,"timestamp":"2022-12-16T08:46:46.756Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.075,"status":404,"timestamp":"2022-12-16T08:46:51.849Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.74,"status":404,"timestamp":"2022-12-16T08:46:53.199Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.521,"status":404,"timestamp":"2022-12-16T08:47:21.113Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.679,"status":404,"timestamp":"2022-12-16T08:47:25.380Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.734,"status":404,"timestamp":"2022-12-16T08:47:32.201Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.737,"status":404,"timestamp":"2022-12-16T08:47:33.611Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.482,"status":404,"timestamp":"2022-12-16T08:47:36.131Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.436,"status":404,"timestamp":"2022-12-16T08:47:37.174Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.926,"status":404,"timestamp":"2022-12-16T08:47:53.946Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.709,"status":404,"timestamp":"2022-12-16T08:48:16.344Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.459,"status":404,"timestamp":"2022-12-16T08:48:17.870Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.759,"status":404,"timestamp":"2022-12-16T08:48:42.478Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.467,"status":404,"timestamp":"2022-12-16T08:48:47.838Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.503,"status":404,"timestamp":"2022-12-16T08:48:49.172Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.47,"status":404,"timestamp":"2022-12-16T08:49:18.386Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.453,"status":404,"timestamp":"2022-12-16T08:49:22.094Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.413,"status":404,"timestamp":"2022-12-16T08:49:28.858Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.677,"status":404,"timestamp":"2022-12-16T08:49:36.612Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.413,"status":404,"timestamp":"2022-12-16T08:49:37.645Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":538.548,"status":200,"timestamp":"2022-12-16T08:50:01.765Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:50:02.250Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:50:02.376Z"}
+http: incoming-request {"content_length":"3636","method":"GET","response_time":125.394,"status":200,"timestamp":"2022-12-16T08:50:02.378Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":84.704,"status":200,"timestamp":"2022-12-16T08:50:08.082Z","url":"/api/v1/users/logout"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:50:18.833Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:50:18.927Z"}
+http: incoming-request {"method":"GET","response_time":94.287,"status":304,"timestamp":"2022-12-16T08:50:18.928Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":1.036,"status":404,"timestamp":"2022-12-16T08:50:19.468Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.704,"status":404,"timestamp":"2022-12-16T08:50:37.719Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.428,"status":404,"timestamp":"2022-12-16T08:50:38.776Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":310.06,"status":200,"timestamp":"2022-12-16T08:50:41.680Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:50:42.320Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:50:42.422Z"}
+http: incoming-request {"method":"GET","response_time":100.897,"status":304,"timestamp":"2022-12-16T08:50:42.489Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":83.888,"status":200,"timestamp":"2022-12-16T08:50:45.449Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":308.196,"status":200,"timestamp":"2022-12-16T08:50:48.406Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:50:48.685Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:50:48.837Z"}
+http: incoming-request {"method":"GET","response_time":150.004,"status":304,"timestamp":"2022-12-16T08:50:48.852Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.426,"status":404,"timestamp":"2022-12-16T08:50:50.527Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.872,"status":404,"timestamp":"2022-12-16T08:50:51.573Z","url":"/logo512.png"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":84.033,"status":200,"timestamp":"2022-12-16T08:50:54.218Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.425,"status":404,"timestamp":"2022-12-16T08:51:20.585Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.452,"status":404,"timestamp":"2022-12-16T08:51:22.550Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.818,"status":404,"timestamp":"2022-12-16T08:51:45.282Z","url":"/logo512.png"}
+http: incoming-request {"content_length":150,"method":"GET","response_time":0.636,"status":404,"timestamp":"2022-12-16T08:51:46.671Z","url":"/logo512.png"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:51:49.530Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:51:49.637Z"}
+http: incoming-request {"method":"GET","response_time":107.264,"status":304,"timestamp":"2022-12-16T08:51:49.641Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":312.077,"status":200,"timestamp":"2022-12-16T08:51:57.718Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:51:57.966Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:51:58.055Z"}
+http: incoming-request {"method":"GET","response_time":89.797,"status":304,"timestamp":"2022-12-16T08:51:58.056Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":84.194,"status":200,"timestamp":"2022-12-16T08:52:01.722Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":312.851,"status":200,"timestamp":"2022-12-16T08:52:10.855Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:52:11.450Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:52:11.542Z"}
+http: incoming-request {"method":"GET","response_time":92.172,"status":304,"timestamp":"2022-12-16T08:52:11.544Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":91.517,"status":200,"timestamp":"2022-12-16T08:52:26.363Z","url":"/api/v1/users/logout"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:53:45.294Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:53:45.389Z"}
+http: incoming-request {"method":"GET","response_time":95.213,"status":304,"timestamp":"2022-12-16T08:53:45.392Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:53:49.656Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:53:49.748Z"}
+http: incoming-request {"method":"GET","response_time":92.15,"status":304,"timestamp":"2022-12-16T08:53:49.751Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:53:58.089Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:53:58.178Z"}
+http: incoming-request {"method":"GET","response_time":88.377,"status":304,"timestamp":"2022-12-16T08:53:58.179Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":334.366,"status":200,"timestamp":"2022-12-16T08:54:07.994Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:54:08.526Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:54:08.624Z"}
+http: incoming-request {"method":"GET","response_time":97.35,"status":304,"timestamp":"2022-12-16T08:54:08.625Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:54:18.417Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:54:18.515Z"}
+http: incoming-request {"method":"GET","response_time":98.292,"status":304,"timestamp":"2022-12-16T08:54:18.516Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":84.315,"status":200,"timestamp":"2022-12-16T08:54:22.045Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":313.311,"status":200,"timestamp":"2022-12-16T08:54:37.439Z","url":"/api/v1/users/login"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T08:54:37.984Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T08:54:38.078Z"}
+http: incoming-request {"method":"GET","response_time":95.745,"status":304,"timestamp":"2022-12-16T08:54:38.098Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:14:10.057Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:14:10.240Z"}
+http: incoming-request {"method":"GET","response_time":183.501,"status":304,"timestamp":"2022-12-16T09:14:10.313Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"3780","method":"GET","response_time":534.553,"status":200,"timestamp":"2022-12-16T09:17:48.157Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:19:08.633Z"}
+http: incoming-request {"method":"GET","response_time":305.812,"status":304,"timestamp":"2022-12-16T09:19:08.915Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:19:10.681Z"}
+http: incoming-request {"method":"GET","response_time":2047.612,"status":304,"timestamp":"2022-12-16T09:19:10.686Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":107.993,"status":304,"timestamp":"2022-12-16T09:19:29.772Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":130.338,"status":304,"timestamp":"2022-12-16T09:19:29.928Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":87.574,"status":304,"timestamp":"2022-12-16T09:19:54.690Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.425,"status":304,"timestamp":"2022-12-16T09:20:02.676Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":329.805,"status":304,"timestamp":"2022-12-16T09:21:50.918Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":104.652,"status":304,"timestamp":"2022-12-16T09:21:59.672Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:23:25.777Z"}
+http: incoming-request {"method":"GET","response_time":167.1,"status":304,"timestamp":"2022-12-16T09:23:25.900Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:23:25.903Z"}
+http: incoming-request {"method":"GET","response_time":158.67,"status":304,"timestamp":"2022-12-16T09:23:26.122Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":191.747,"status":304,"timestamp":"2022-12-16T09:23:26.560Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.734,"status":304,"timestamp":"2022-12-16T09:24:33.964Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":90.152,"status":304,"timestamp":"2022-12-16T09:24:45.271Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":86.655,"status":304,"timestamp":"2022-12-16T09:24:50.732Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":94.179,"status":304,"timestamp":"2022-12-16T09:24:51.382Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":182,"method":"GET","response_time":45.352,"status":404,"timestamp":"2022-12-16T09:26:57.873Z","url":"/auto=format&fit=crop&w=404&q=80"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:27:18.366Z"}
+http: incoming-request {"method":"GET","response_time":202.388,"status":304,"timestamp":"2022-12-16T09:27:18.567Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:27:18.649Z"}
+http: incoming-request {"method":"GET","response_time":282.702,"status":304,"timestamp":"2022-12-16T09:27:18.654Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:29:57.115Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:29:57.218Z"}
+http: incoming-request {"method":"GET","response_time":103.752,"status":304,"timestamp":"2022-12-16T09:29:57.220Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":93.827,"status":304,"timestamp":"2022-12-16T09:29:57.247Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:31:17.308Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:31:17.399Z"}
+http: incoming-request {"method":"GET","response_time":127.005,"status":304,"timestamp":"2022-12-16T09:31:17.402Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":96.185,"status":304,"timestamp":"2022-12-16T09:31:17.409Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:35:23.090Z"}
+http: incoming-request {"method":"GET","response_time":106.35,"status":304,"timestamp":"2022-12-16T09:35:23.204Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:35:23.209Z"}
+http: incoming-request {"method":"GET","response_time":118.276,"status":304,"timestamp":"2022-12-16T09:35:23.215Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":144,"method":"GET","response_time":13.298,"status":404,"timestamp":"2022-12-16T09:39:09.588Z","url":"/image"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:41:18.385Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:41:18.479Z"}
+http: incoming-request {"method":"GET","response_time":94.01,"status":304,"timestamp":"2022-12-16T09:41:18.511Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":152.268,"status":304,"timestamp":"2022-12-16T09:41:18.544Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:42:10.525Z"}
+http: incoming-request {"method":"GET","response_time":88.791,"status":304,"timestamp":"2022-12-16T09:42:10.627Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:42:10.632Z"}
+http: incoming-request {"method":"GET","response_time":107.087,"status":304,"timestamp":"2022-12-16T09:42:10.635Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":148,"method":"GET","response_time":0.681,"status":404,"timestamp":"2022-12-16T09:42:10.939Z","url":"/undefined"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:42:30.296Z"}
+http: incoming-request {"content_length":148,"method":"GET","response_time":0.39,"status":404,"timestamp":"2022-12-16T09:42:30.356Z","url":"/undefined"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:42:30.414Z"}
+http: incoming-request {"method":"GET","response_time":139.936,"status":304,"timestamp":"2022-12-16T09:42:30.453Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":133.528,"status":304,"timestamp":"2022-12-16T09:42:30.481Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":96.547,"status":304,"timestamp":"2022-12-16T09:43:29.895Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":156,"method":"GET","response_time":0.447,"status":404,"timestamp":"2022-12-16T09:43:29.940Z","url":"/[object%20Object]"}
+http: incoming-request {"method":"GET","response_time":91.275,"status":304,"timestamp":"2022-12-16T09:43:30.025Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":88.117,"status":304,"timestamp":"2022-12-16T09:43:30.157Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:43:49.456Z"}
+http: incoming-request {"method":"GET","response_time":111.721,"status":304,"timestamp":"2022-12-16T09:43:49.550Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:43:49.556Z"}
+http: incoming-request {"method":"GET","response_time":100.469,"status":304,"timestamp":"2022-12-16T09:43:49.581Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":95.669,"status":304,"timestamp":"2022-12-16T09:45:00.921Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:45:09.860Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:45:10.144Z"}
+http: incoming-request {"method":"GET","response_time":284.384,"status":304,"timestamp":"2022-12-16T09:45:10.147Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":285.729,"status":304,"timestamp":"2022-12-16T09:45:10.150Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:45:50.136Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:45:50.237Z"}
+http: incoming-request {"method":"GET","response_time":100.857,"status":304,"timestamp":"2022-12-16T09:45:50.250Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":102.25,"status":304,"timestamp":"2022-12-16T09:45:50.254Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.408,"status":304,"timestamp":"2022-12-16T09:47:02.262Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:47:07.112Z"}
+http: incoming-request {"method":"GET","response_time":99.271,"status":304,"timestamp":"2022-12-16T09:47:07.198Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:47:07.202Z"}
+http: incoming-request {"method":"GET","response_time":90.023,"status":304,"timestamp":"2022-12-16T09:47:07.205Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":87.657,"status":304,"timestamp":"2022-12-16T09:48:13.695Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":88.117,"status":304,"timestamp":"2022-12-16T09:48:13.840Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":87.513,"status":304,"timestamp":"2022-12-16T09:49:25.202Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:49:31.659Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:49:31.771Z"}
+http: incoming-request {"method":"GET","response_time":112.333,"status":304,"timestamp":"2022-12-16T09:49:31.773Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":106.813,"status":304,"timestamp":"2022-12-16T09:49:31.776Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:50:03.445Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:50:03.534Z"}
+http: incoming-request {"method":"GET","response_time":88.961,"status":304,"timestamp":"2022-12-16T09:50:03.542Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":88.589,"status":304,"timestamp":"2022-12-16T09:50:03.585Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":86.21,"status":304,"timestamp":"2022-12-16T09:51:07.849Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":87.628,"status":304,"timestamp":"2022-12-16T09:51:08.087Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:51:18.202Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:51:18.291Z"}
+http: incoming-request {"method":"GET","response_time":89.047,"status":304,"timestamp":"2022-12-16T09:51:18.294Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":93.271,"status":304,"timestamp":"2022-12-16T09:51:18.299Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:53:40.859Z"}
+http: incoming-request {"method":"GET","response_time":728.712,"status":304,"timestamp":"2022-12-16T09:53:41.614Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:53:42.098Z"}
+http: incoming-request {"method":"GET","response_time":1238.974,"status":304,"timestamp":"2022-12-16T09:53:42.102Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T09:55:49.054Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T09:55:49.624Z"}
+http: incoming-request {"method":"GET","response_time":571.182,"status":304,"timestamp":"2022-12-16T09:55:49.628Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":587.2,"status":304,"timestamp":"2022-12-16T09:55:49.681Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":148,"method":"GET","response_time":0.982,"status":404,"timestamp":"2022-12-16T09:56:33.023Z","url":"/undefined"}
+http: incoming-request {"content_length":156,"method":"GET","response_time":0.416,"status":404,"timestamp":"2022-12-16T09:58:03.647Z","url":"/.$%7BimageUrl%7D."}
+http: incoming-request {"content_length":148,"method":"GET","response_time":0.38,"status":404,"timestamp":"2022-12-16T09:58:22.573Z","url":"/undefined"}
+http: incoming-request {"method":"GET","response_time":89.99,"status":304,"timestamp":"2022-12-16T09:59:39.098Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:18:18.388Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:18:21.023Z"}
+http: incoming-request {"method":"GET","response_time":2736.166,"status":304,"timestamp":"2022-12-16T11:18:21.024Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":2432.199,"status":304,"timestamp":"2022-12-16T11:18:21.027Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":100.274,"status":304,"timestamp":"2022-12-16T11:21:06.688Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":86.602,"status":304,"timestamp":"2022-12-16T11:21:08.667Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.008,"status":304,"timestamp":"2022-12-16T11:23:07.182Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:23:42.449Z"}
+http: incoming-request {"method":"GET","response_time":89.828,"status":304,"timestamp":"2022-12-16T11:23:42.492Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:23:42.539Z"}
+http: incoming-request {"method":"GET","response_time":90.408,"status":304,"timestamp":"2022-12-16T11:23:42.541Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:23:50.277Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:23:50.377Z"}
+http: incoming-request {"method":"GET","response_time":100.221,"status":304,"timestamp":"2022-12-16T11:23:50.393Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":98.772,"status":304,"timestamp":"2022-12-16T11:23:50.585Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":90.398,"status":304,"timestamp":"2022-12-16T11:24:02.400Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:24:57.480Z"}
+http: incoming-request {"method":"GET","response_time":91.346,"status":304,"timestamp":"2022-12-16T11:24:57.563Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:24:57.574Z"}
+http: incoming-request {"method":"GET","response_time":93.976,"status":304,"timestamp":"2022-12-16T11:24:57.582Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":92.738,"status":304,"timestamp":"2022-12-16T11:26:36.840Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:26:47.598Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:26:47.911Z"}
+http: incoming-request {"method":"GET","response_time":312.877,"status":304,"timestamp":"2022-12-16T11:26:47.928Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":319.338,"status":304,"timestamp":"2022-12-16T11:26:47.954Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:27:16.148Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:27:16.241Z"}
+http: incoming-request {"method":"GET","response_time":92.307,"status":304,"timestamp":"2022-12-16T11:27:16.256Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":106.834,"status":304,"timestamp":"2022-12-16T11:27:16.268Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:28:03.812Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:28:03.924Z"}
+http: incoming-request {"method":"GET","response_time":112.337,"status":304,"timestamp":"2022-12-16T11:28:03.973Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":137.428,"status":304,"timestamp":"2022-12-16T11:28:03.990Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":91.647,"status":304,"timestamp":"2022-12-16T11:29:29.909Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:30:06.381Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:30:06.507Z"}
+http: incoming-request {"method":"GET","response_time":125.682,"status":304,"timestamp":"2022-12-16T11:30:06.521Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":125.744,"status":304,"timestamp":"2022-12-16T11:30:06.567Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:31:49.885Z"}
+http: incoming-request {"method":"GET","response_time":135.885,"status":304,"timestamp":"2022-12-16T11:31:50.010Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:31:50.019Z"}
+http: incoming-request {"method":"GET","response_time":133.337,"status":304,"timestamp":"2022-12-16T11:31:50.022Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:33:41.768Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:33:42.513Z"}
+http: incoming-request {"method":"GET","response_time":744.692,"status":304,"timestamp":"2022-12-16T11:33:42.517Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":734.323,"status":304,"timestamp":"2022-12-16T11:33:42.544Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":99.264,"status":304,"timestamp":"2022-12-16T11:35:01.013Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.14,"status":304,"timestamp":"2022-12-16T11:35:01.147Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":88.717,"status":304,"timestamp":"2022-12-16T11:35:01.362Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":105.16,"status":304,"timestamp":"2022-12-16T11:40:47.989Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:40:48.624Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:40:48.715Z"}
+http: incoming-request {"method":"GET","response_time":90.888,"status":304,"timestamp":"2022-12-16T11:40:48.716Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:40:50.877Z"}
+http: incoming-request {"method":"GET","response_time":89.927,"status":304,"timestamp":"2022-12-16T11:40:50.946Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:40:51.001Z"}
+http: incoming-request {"method":"GET","response_time":123.882,"status":304,"timestamp":"2022-12-16T11:40:51.002Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:41:34.212Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:41:34.358Z"}
+http: incoming-request {"method":"GET","response_time":152.721,"status":304,"timestamp":"2022-12-16T11:41:34.382Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":139.812,"status":304,"timestamp":"2022-12-16T11:41:34.389Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":87.12,"status":304,"timestamp":"2022-12-16T11:41:51.551Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:52:20.284Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:52:20.450Z"}
+http: incoming-request {"content_length":"3636","method":"GET","response_time":187.906,"status":200,"timestamp":"2022-12-16T11:52:20.468Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"3780","method":"GET","response_time":156.375,"status":200,"timestamp":"2022-12-16T11:52:20.485Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:52:59.454Z"}
+http: incoming-request {"method":"GET","response_time":93.774,"status":304,"timestamp":"2022-12-16T11:52:59.534Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:52:59.578Z"}
+http: incoming-request {"method":"GET","response_time":124.287,"status":304,"timestamp":"2022-12-16T11:52:59.612Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:53:05.595Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:53:05.759Z"}
+http: incoming-request {"method":"GET","response_time":163.111,"status":304,"timestamp":"2022-12-16T11:53:05.770Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":114.476,"status":304,"timestamp":"2022-12-16T11:53:05.785Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":12.153,"status":500,"timestamp":"2022-12-16T11:53:12.004Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"method":"GET","response_time":538.688,"status":304,"timestamp":"2022-12-16T11:55:19.997Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:55:20.134Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:55:20.229Z"}
+http: incoming-request {"method":"GET","response_time":94.349,"status":304,"timestamp":"2022-12-16T11:55:20.232Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:55:24.894Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:55:25.079Z"}
+http: incoming-request {"method":"GET","response_time":184.556,"status":304,"timestamp":"2022-12-16T11:55:25.081Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":185.697,"status":304,"timestamp":"2022-12-16T11:55:25.088Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":2.274,"status":500,"timestamp":"2022-12-16T11:55:29.849Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":2.617,"status":500,"timestamp":"2022-12-16T11:56:40.988Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":4.522,"status":500,"timestamp":"2022-12-16T11:56:42.347Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"method":"GET","response_time":90.106,"status":304,"timestamp":"2022-12-16T11:56:43.256Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:56:43.493Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:56:43.586Z"}
+http: incoming-request {"method":"GET","response_time":94.501,"status":304,"timestamp":"2022-12-16T11:56:43.588Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:56:50.471Z"}
+http: incoming-request {"method":"GET","response_time":94.596,"status":304,"timestamp":"2022-12-16T11:56:50.516Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:56:50.566Z"}
+http: incoming-request {"method":"GET","response_time":94.844,"status":304,"timestamp":"2022-12-16T11:56:50.570Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":1.619,"status":500,"timestamp":"2022-12-16T11:56:54.397Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"content_length":570,"method":"GET","response_time":1.789,"status":500,"timestamp":"2022-12-16T11:57:21.355Z","url":"/api/v1/products/undefined"}
+http: incoming-request {"content_length":"629","method":"GET","response_time":87.881,"status":200,"timestamp":"2022-12-16T11:57:23.512Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":84.408,"status":304,"timestamp":"2022-12-16T11:57:23.777Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:57:24.221Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:57:24.310Z"}
+http: incoming-request {"method":"GET","response_time":88.746,"status":304,"timestamp":"2022-12-16T11:57:24.312Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":89.986,"status":304,"timestamp":"2022-12-16T11:57:24.339Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:57:30.339Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:57:30.431Z"}
+http: incoming-request {"method":"GET","response_time":91.002,"status":304,"timestamp":"2022-12-16T11:57:30.433Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":89.026,"status":304,"timestamp":"2022-12-16T11:57:30.557Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":84.738,"status":304,"timestamp":"2022-12-16T11:57:38.338Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":85.201,"status":304,"timestamp":"2022-12-16T11:58:04.174Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":87.756,"status":304,"timestamp":"2022-12-16T11:58:07.157Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:58:07.449Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:58:07.538Z"}
+http: incoming-request {"method":"GET","response_time":88.182,"status":304,"timestamp":"2022-12-16T11:58:07.540Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T11:58:12.418Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T11:58:12.510Z"}
+http: incoming-request {"method":"GET","response_time":91.995,"status":304,"timestamp":"2022-12-16T11:58:12.518Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":102.176,"status":304,"timestamp":"2022-12-16T11:58:12.525Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"629","method":"GET","response_time":88.123,"status":200,"timestamp":"2022-12-16T11:58:16.883Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":487.158,"status":304,"timestamp":"2022-12-16T12:00:01.661Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:00:02.328Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:00:02.625Z"}
+http: incoming-request {"method":"GET","response_time":294.53,"status":304,"timestamp":"2022-12-16T12:00:02.644Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:00:06.144Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:00:06.234Z"}
+http: incoming-request {"content_length":"3636","method":"GET","response_time":89.259,"status":200,"timestamp":"2022-12-16T12:00:06.243Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":86.23,"status":304,"timestamp":"2022-12-16T12:00:06.273Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":83.102,"status":304,"timestamp":"2022-12-16T12:00:17.751Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":84.945,"status":304,"timestamp":"2022-12-16T12:01:01.041Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":85.06,"status":304,"timestamp":"2022-12-16T12:01:42.992Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":84.166,"status":304,"timestamp":"2022-12-16T12:03:00.984Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":84.229,"status":304,"timestamp":"2022-12-16T12:03:02.553Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":82.937,"status":304,"timestamp":"2022-12-16T12:03:03.157Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":84.425,"status":304,"timestamp":"2022-12-16T12:03:03.890Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:17:15.571Z"}
+http: incoming-request {"method":"GET","response_time":289.567,"status":304,"timestamp":"2022-12-16T12:17:15.855Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:17:15.909Z"}
+http: incoming-request {"method":"GET","response_time":341.446,"status":304,"timestamp":"2022-12-16T12:17:15.956Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":99.805,"status":304,"timestamp":"2022-12-16T12:17:23.548Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":90.013,"status":304,"timestamp":"2022-12-16T12:22:13.971Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:22:14.219Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:22:14.308Z"}
+http: incoming-request {"method":"GET","response_time":88.936,"status":304,"timestamp":"2022-12-16T12:22:14.310Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"629","method":"GET","response_time":83.394,"status":200,"timestamp":"2022-12-16T12:22:18.440Z","url":"/api/v1/products/639b7900a705908e8516ab8d"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:22:21.512Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:22:21.760Z"}
+http: incoming-request {"method":"GET","response_time":248.54,"status":304,"timestamp":"2022-12-16T12:22:21.762Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":288.517,"status":304,"timestamp":"2022-12-16T12:22:21.797Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"628","method":"GET","response_time":83.319,"status":200,"timestamp":"2022-12-16T12:22:27.351Z","url":"/api/v1/products/639b7900a705908e8516ab8e"}
+http: incoming-request {"method":"GET","response_time":86.108,"status":304,"timestamp":"2022-12-16T12:24:14.625Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T12:24:14.774Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T12:24:14.860Z"}
+http: incoming-request {"method":"GET","response_time":85.882,"status":304,"timestamp":"2022-12-16T12:24:14.862Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"629","method":"GET","response_time":83.461,"status":200,"timestamp":"2022-12-16T12:24:21.157Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":84.758,"status":304,"timestamp":"2022-12-16T12:32:30.279Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":3485.055,"status":304,"timestamp":"2022-12-16T13:19:45.501Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":868.9,"status":304,"timestamp":"2022-12-16T13:35:04.736Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":166.558,"status":304,"timestamp":"2022-12-16T13:35:09.165Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":102.894,"status":304,"timestamp":"2022-12-16T13:35:30.240Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+http: incoming-request {"method":"GET","response_time":103.572,"status":304,"timestamp":"2022-12-16T13:36:00.994Z","url":"/api/v1/products/639b7900a705908e8516ab8b"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:36:04.367Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:36:05.002Z"}
+http: incoming-request {"method":"GET","response_time":951.086,"status":304,"timestamp":"2022-12-16T13:36:05.042Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":386.923,"status":304,"timestamp":"2022-12-16T13:36:05.120Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"629","method":"GET","response_time":83.669,"status":200,"timestamp":"2022-12-16T13:36:13.853Z","url":"/api/v1/products/639b7900a705908e8516ab8a"}
+http: incoming-request {"method":"GET","response_time":314.706,"status":304,"timestamp":"2022-12-16T13:40:13.053Z","url":"/api/v1/products/639b7900a705908e8516ab8a"}
+http: incoming-request {"method":"GET","response_time":83.45,"status":304,"timestamp":"2022-12-16T13:40:17.591Z","url":"/api/v1/products/639b7900a705908e8516ab8a"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:44:49.329Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:44:49.552Z"}
+http: incoming-request {"method":"GET","response_time":239.975,"status":304,"timestamp":"2022-12-16T13:44:49.569Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":118.553,"status":304,"timestamp":"2022-12-16T13:44:49.586Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:44:54.516Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:44:54.687Z"}
+http: incoming-request {"method":"GET","response_time":171.562,"status":304,"timestamp":"2022-12-16T13:44:54.703Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":106.319,"status":304,"timestamp":"2022-12-16T13:44:54.713Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":83.089,"status":304,"timestamp":"2022-12-16T13:45:00.710Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:49:42.702Z"}
+http: incoming-request {"method":"GET","response_time":209.113,"status":304,"timestamp":"2022-12-16T13:49:42.917Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:49:42.923Z"}
+http: incoming-request {"method":"GET","response_time":265.563,"status":304,"timestamp":"2022-12-16T13:49:42.963Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:49:48.481Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:49:48.598Z"}
+http: incoming-request {"method":"GET","response_time":116.301,"status":304,"timestamp":"2022-12-16T13:49:48.650Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":140.973,"status":304,"timestamp":"2022-12-16T13:49:48.658Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":81.96,"status":304,"timestamp":"2022-12-16T13:49:59.367Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":85.259,"status":304,"timestamp":"2022-12-16T13:51:42.394Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":83.844,"status":304,"timestamp":"2022-12-16T13:54:04.331Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+http: incoming-request {"method":"GET","response_time":83.638,"status":304,"timestamp":"2022-12-16T13:54:14.965Z","url":"/api/v1/products/639b7900a705908e8516ab8c"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T13:54:28.863Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T13:54:28.976Z"}
+http: incoming-request {"method":"GET","response_time":113.067,"status":304,"timestamp":"2022-12-16T13:54:29.028Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":140.079,"status":304,"timestamp":"2022-12-16T13:54:29.033Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":83.778,"status":304,"timestamp":"2022-12-16T13:54:34.861Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":166.563,"status":304,"timestamp":"2022-12-16T14:03:04.302Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":93.702,"status":304,"timestamp":"2022-12-16T14:03:08.628Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T14:03:08.850Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T14:03:08.946Z"}
+http: incoming-request {"method":"GET","response_time":95.652,"status":304,"timestamp":"2022-12-16T14:03:08.955Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":709.574,"status":200,"timestamp":"2022-12-16T17:41:21.725Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":866.608,"status":200,"timestamp":"2022-12-16T17:41:21.729Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"29","method":"POST","response_time":895.676,"status":200,"timestamp":"2022-12-16T17:41:22.202Z","url":"/api/v1/users/logout"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":1523.838,"status":200,"timestamp":"2022-12-16T17:41:57.388Z","url":"/api/v1/users/login"}
+http: incoming-request {"method":"GET","response_time":88.908,"status":304,"timestamp":"2022-12-16T17:41:58.144Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T17:41:58.503Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T17:41:58.594Z"}
+http: incoming-request {"method":"GET","response_time":148.374,"status":304,"timestamp":"2022-12-16T17:41:58.656Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":86.227,"status":304,"timestamp":"2022-12-16T17:42:43.210Z","url":"/api/v1/products/639b7900a705908e8516ab89"}
+http: incoming-request {"method":"GET","response_time":96.815,"status":304,"timestamp":"2022-12-16T17:48:26.309Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T17:48:26.321Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T17:48:26.474Z"}
+http: incoming-request {"method":"GET","response_time":153.111,"status":304,"timestamp":"2022-12-16T17:48:26.475Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T17:48:39.144Z"}
+http: incoming-request {"method":"GET","response_time":92.427,"status":304,"timestamp":"2022-12-16T17:48:39.231Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T17:48:39.236Z"}
+http: incoming-request {"method":"GET","response_time":92.181,"status":304,"timestamp":"2022-12-16T17:48:39.255Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T17:48:57.443Z"}
+http: incoming-request {"method":"GET","response_time":89.462,"status":304,"timestamp":"2022-12-16T17:48:57.599Z","url":"/api/v1/products"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T17:48:57.603Z"}
+http: incoming-request {"method":"GET","response_time":160.535,"status":304,"timestamp":"2022-12-16T17:48:57.615Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":84.913,"status":304,"timestamp":"2022-12-16T17:49:26.538Z","url":"/api/v1/products/639b7900a705908e8516ab8a"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T17:49:39.260Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T17:49:39.365Z"}
+http: incoming-request {"method":"GET","response_time":104.727,"status":304,"timestamp":"2022-12-16T17:49:39.372Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":88.788,"status":304,"timestamp":"2022-12-16T17:49:39.398Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:16:19.749Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:16:20.484Z"}
+http: incoming-request {"content_length":"3636","method":"GET","response_time":956.14,"status":200,"timestamp":"2022-12-16T18:16:20.548Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":189.693,"status":304,"timestamp":"2022-12-16T18:16:20.556Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:16:55.899Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:16:56.005Z"}
+http: incoming-request {"method":"GET","response_time":105.915,"status":304,"timestamp":"2022-12-16T18:16:56.019Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:17:13.508Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:17:13.597Z"}
+http: incoming-request {"method":"GET","response_time":88.572,"status":304,"timestamp":"2022-12-16T18:17:13.621Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:17:14.509Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:17:14.611Z"}
+http: incoming-request {"method":"GET","response_time":101.496,"status":304,"timestamp":"2022-12-16T18:17:14.612Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:21:41.938Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:21:42.029Z"}
+http: incoming-request {"method":"GET","response_time":90.495,"status":304,"timestamp":"2022-12-16T18:21:42.068Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":128.007,"status":304,"timestamp":"2022-12-16T18:21:42.103Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:22:04.872Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:22:05.012Z"}
+http: incoming-request {"method":"GET","response_time":139.177,"status":304,"timestamp":"2022-12-16T18:22:05.052Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":150.064,"status":304,"timestamp":"2022-12-16T18:22:05.066Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:24:52.014Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:24:52.188Z"}
+http: incoming-request {"method":"GET","response_time":173.849,"status":304,"timestamp":"2022-12-16T18:24:52.288Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:24:53.640Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:24:53.731Z"}
+http: incoming-request {"method":"GET","response_time":91.107,"status":304,"timestamp":"2022-12-16T18:24:53.740Z","url":"/api/v1/stores"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:24:55.213Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:24:55.304Z"}
+http: incoming-request {"method":"GET","response_time":90.12,"status":304,"timestamp":"2022-12-16T18:24:55.314Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":98.813,"status":304,"timestamp":"2022-12-16T18:24:55.320Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":197.028,"status":500,"timestamp":"2022-12-16T18:27:44.302Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":47.651,"status":500,"timestamp":"2022-12-16T18:28:12.962Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":2.031,"status":500,"timestamp":"2022-12-16T18:28:16.956Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":1.035,"status":500,"timestamp":"2022-12-16T18:28:17.080Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":1.466,"status":500,"timestamp":"2022-12-16T18:28:17.277Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":1.637,"status":500,"timestamp":"2022-12-16T18:28:38.217Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":0.961,"status":500,"timestamp":"2022-12-16T18:28:38.382Z","url":"/api/v1/stores/undefined"}
+http: incoming-request {"content_length":"256","method":"GET","response_time":1.224,"status":500,"timestamp":"2022-12-16T18:28:38.594Z","url":"/api/v1/stores/undefined"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:31:04.433Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:31:04.526Z"}
+http: incoming-request {"method":"GET","response_time":93.03,"status":304,"timestamp":"2022-12-16T18:31:04.568Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":129.509,"status":304,"timestamp":"2022-12-16T18:31:04.579Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"609","method":"GET","response_time":470.412,"status":200,"timestamp":"2022-12-16T18:40:44.048Z","url":"/api/v1/stores/639b76c0abb5995d81df23ce"}
+http: incoming-request {"content_length":154,"method":"GET","response_time":462.983,"status":404,"timestamp":"2022-12-16T18:40:44.624Z","url":"/store/undefined"}
+http: incoming-request {"method":"GET","response_time":280.226,"status":304,"timestamp":"2022-12-16T18:41:23.881Z","url":"/api/v1/stores/639b76c0abb5995d81df23ce"}
+http: incoming-request {"method":"GET","response_time":239.739,"status":304,"timestamp":"2022-12-16T18:41:24.132Z","url":"/api/v1/stores/639b76c0abb5995d81df23ce"}
+http: incoming-request {"method":"GET","response_time":121.337,"status":304,"timestamp":"2022-12-16T18:42:34.165Z","url":"/api/v1/stores/639b76c0abb5995d81df23ce"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:43:04.019Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:43:04.360Z"}
+http: incoming-request {"method":"GET","response_time":341.338,"status":304,"timestamp":"2022-12-16T18:43:04.377Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":92.089,"status":304,"timestamp":"2022-12-16T18:43:04.576Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"605","method":"GET","response_time":122.293,"status":200,"timestamp":"2022-12-16T18:43:07.056Z","url":"/api/v1/stores/639b76c0abb5995d81df23cf"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:43:18.343Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:43:18.432Z"}
+http: incoming-request {"method":"GET","response_time":90.766,"status":304,"timestamp":"2022-12-16T18:43:18.442Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":100.925,"status":304,"timestamp":"2022-12-16T18:43:18.448Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"602","method":"GET","response_time":84.465,"status":200,"timestamp":"2022-12-16T18:43:20.808Z","url":"/api/v1/stores/639b76c0abb5995d81df23d0"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:43:36.938Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:43:37.048Z"}
+http: incoming-request {"method":"GET","response_time":110.035,"status":304,"timestamp":"2022-12-16T18:43:37.056Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":120.936,"status":304,"timestamp":"2022-12-16T18:43:37.097Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"605","method":"GET","response_time":139.593,"status":200,"timestamp":"2022-12-16T18:44:15.050Z","url":"/api/v1/stores/639b76c0abb5995d81df23d1"}
+http: incoming-request {"content_length":"29","method":"GET","response_time":119.23,"status":500,"timestamp":"2022-12-16T18:57:30.050Z","url":"/api/v1/stores/639b76c0abb5995d81df23d1"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T18:59:47.273Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T18:59:47.463Z"}
+http: incoming-request {"content_length":"3864","method":"GET","response_time":220.703,"status":200,"timestamp":"2022-12-16T18:59:47.480Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"3780","method":"GET","response_time":146.36,"status":200,"timestamp":"2022-12-16T18:59:47.496Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"1245","method":"GET","response_time":190.732,"status":200,"timestamp":"2022-12-16T18:59:50.899Z","url":"/api/v1/stores/639cbe58c9ae0ec1cb9754e2"}
+info: Attempting to get all stores {"timestamp":"2022-12-16T19:11:14.832Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-16T19:11:14.926Z"}
+http: incoming-request {"method":"GET","response_time":96.954,"status":304,"timestamp":"2022-12-16T19:11:14.928Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":92.95,"status":304,"timestamp":"2022-12-16T19:11:14.934Z","url":"/api/v1/products"}

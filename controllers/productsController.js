@@ -51,14 +51,13 @@ const updateProductHandler = async (req, res) => {
     }
 }
 
-const findProductHandler = async (req, res) => {
+const findProductHandler = async (req, res, next) => {
     try {
         const product = await Product.findById(req.params.id);
         if(!product) throw new Error(`Product ${req.params.id} not found`);
         res.status(200).json(product);
     } catch (err) {
-        throw new Error("Error finding product");
-        res.status(404).json({message: "Product not found"});
+        next(err)
     }
 }
 
