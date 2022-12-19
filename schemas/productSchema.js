@@ -33,8 +33,11 @@ const ProductSchema = new mongoose.Schema({
     stores: {
         type: mongoose.Schema.Types.ObjectId,
         ref:'Store'
+    },
+    categories: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Category'
     }
-
 }, { timestamps: true })
 
 module.exports = ProductSchema

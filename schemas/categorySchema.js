@@ -15,7 +15,7 @@ const categorySchema = mongoose.Schema({
     },
     products: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Product',
+        ref: 'Product'
     },
     isActive: {
         type: Boolean,

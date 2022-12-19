@@ -285,3 +285,355 @@ http: incoming-request {"method":"GET","response_time":448.371,"status":304,"tim
 http: incoming-request {"method":"GET","response_time":85.697,"status":304,"timestamp":"2022-12-17T08:14:29.525Z","url":"/api/v1/categories"}
 http: incoming-request {"method":"GET","response_time":86.266,"status":304,"timestamp":"2022-12-17T08:14:47.924Z","url":"/api/v1/categories"}
 http: incoming-request {"method":"GET","response_time":87.342,"status":304,"timestamp":"2022-12-17T08:16:50.588Z","url":"/api/v1/categories"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T08:20:40.496Z"}
+http: incoming-request {"content_length":"3654","method":"GET","response_time":86.663,"status":200,"timestamp":"2022-12-17T08:20:40.620Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T08:20:40.625Z"}
+http: incoming-request {"method":"GET","response_time":129.674,"status":304,"timestamp":"2022-12-17T08:20:40.653Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":163.119,"status":304,"timestamp":"2022-12-17T08:20:40.670Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"3780","method":"GET","response_time":131.643,"status":200,"timestamp":"2022-12-17T08:24:20.553Z","url":"/api/v1/products?category=ladies"}
+http: incoming-request {"content_length":"3150","method":"GET","response_time":212.168,"status":200,"timestamp":"2022-12-17T08:28:46.717Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"3150","method":"GET","response_time":733.687,"status":200,"timestamp":"2022-12-17T08:41:24.624Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"3780","method":"GET","response_time":88.765,"status":200,"timestamp":"2022-12-17T08:41:44.903Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"4020","method":"GET","response_time":124.607,"status":200,"timestamp":"2022-12-17T08:44:57.371Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"3350","method":"GET","response_time":566.839,"status":200,"timestamp":"2022-12-17T08:57:13.259Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"257","method":"GET","response_time":18.663,"status":500,"timestamp":"2022-12-17T08:59:59.232Z","url":"/api/v1/products?category=product1"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":127.458,"status":200,"timestamp":"2022-12-17T09:05:15.886Z","url":"/api/v1/products?categories=product1"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":93.582,"status":200,"timestamp":"2022-12-17T09:05:38.088Z","url":"/api/v1/products?categories=product2"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":88.683,"status":200,"timestamp":"2022-12-17T09:06:22.556Z","url":"/api/v1/products?categories=category2"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":89.764,"status":200,"timestamp":"2022-12-17T09:06:52.366Z","url":"/api/v1/products?categories=category%202"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":116.184,"status":200,"timestamp":"2022-12-17T09:09:18.461Z","url":"/api/v1/products?categories=Category%202"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":119.846,"status":200,"timestamp":"2022-12-17T09:11:49.279Z","url":"/api/v1/products?categories=Category2"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":17.845,"status":500,"timestamp":"2022-12-17T09:12:29.385Z","url":"/api/v1/products?category=Category2"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":111.975,"status":200,"timestamp":"2022-12-17T09:12:46.990Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":113.558,"status":200,"timestamp":"2022-12-17T09:15:44.274Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"3345","method":"GET","response_time":95.949,"status":200,"timestamp":"2022-12-17T09:15:57.707Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":5.79,"status":500,"timestamp":"2022-12-17T09:16:19.604Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":2.071,"status":500,"timestamp":"2022-12-17T09:20:25.576Z","url":"/api/v1/products?category=Category2"}
+http: incoming-request {"content_length":"3345","method":"GET","response_time":3005.75,"status":200,"timestamp":"2022-12-17T09:21:23.112Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"3345","method":"GET","response_time":178.169,"status":200,"timestamp":"2022-12-17T09:21:39.395Z","url":"/api/v1/products?new=latest"}
+http: incoming-request {"content_length":"4014","method":"GET","response_time":167.33,"status":200,"timestamp":"2022-12-17T09:21:43.775Z","url":"/api/v1/products?new"}
+http: incoming-request {"content_length":"3345","method":"GET","response_time":88.991,"status":200,"timestamp":"2022-12-17T09:21:57.960Z","url":"/api/v1/products?new=1"}
+http: incoming-request {"content_length":"19","method":"GET","response_time":90.464,"status":500,"timestamp":"2022-12-17T09:23:03.969Z","url":"/api/v1/products?category=639d5eb6154d721dd3028f22"}
+http: incoming-request {"content_length":"19","method":"GET","response_time":83.912,"status":500,"timestamp":"2022-12-17T09:23:05.780Z","url":"/api/v1/products?category=639d5eb6154d721dd3028f22"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":1.675,"status":500,"timestamp":"2022-12-17T09:23:17.964Z","url":"/api/v1/products?category=category1"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":5.236,"status":500,"timestamp":"2022-12-17T09:23:22.927Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":1.566,"status":500,"timestamp":"2022-12-17T09:23:26.236Z","url":"/api/v1/products?category=category1"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":1.584,"status":500,"timestamp":"2022-12-17T09:23:33.909Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":100.765,"status":200,"timestamp":"2022-12-17T09:24:34.958Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.976,"status":200,"timestamp":"2022-12-17T09:24:36.601Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.745,"status":200,"timestamp":"2022-12-17T09:24:38.019Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":86.231,"status":200,"timestamp":"2022-12-17T09:24:39.308Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":100.364,"status":200,"timestamp":"2022-12-17T09:24:42.799Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":96.831,"status":200,"timestamp":"2022-12-17T09:24:44.349Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"3355","method":"GET","response_time":95.615,"status":200,"timestamp":"2022-12-17T09:24:53.687Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":84.271,"status":200,"timestamp":"2022-12-17T09:25:06.422Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":85.138,"status":200,"timestamp":"2022-12-17T09:25:10.873Z","url":"/api/v1/products?category=Category2"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.426,"status":200,"timestamp":"2022-12-17T09:25:12.754Z","url":"/api/v1/products?category=Category3"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":93.873,"status":200,"timestamp":"2022-12-17T09:25:16.521Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":91.179,"status":200,"timestamp":"2022-12-17T09:25:34.274Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.258,"status":200,"timestamp":"2022-12-17T09:25:42.524Z","url":"/api/v1/products?category=%22639d878a029dbd8b0643f615%22"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":82.56,"status":200,"timestamp":"2022-12-17T09:25:43.610Z","url":"/api/v1/products?category=%22639d878a029dbd8b0643f615%22"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":87.776,"status":200,"timestamp":"2022-12-17T09:25:54.038Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":82.657,"status":200,"timestamp":"2022-12-17T09:26:21.172Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":82.7,"status":200,"timestamp":"2022-12-17T09:26:23.805Z","url":"/api/v1/products?category=Category4"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":102.692,"status":200,"timestamp":"2022-12-17T09:26:52.517Z","url":"/api/v1/products?category=Category4"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.105,"status":200,"timestamp":"2022-12-17T09:27:17.072Z","url":"/api/v1/products?category=%22639d878a029dbd8b0643f615%22"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":104.903,"status":200,"timestamp":"2022-12-17T09:27:21.750Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"269","method":"POST","response_time":523.115,"status":200,"timestamp":"2022-12-17T09:29:56.471Z","url":"/api/v1/users/login"}
+http: incoming-request {"content_length":"601","method":"GET","response_time":277.865,"status":200,"timestamp":"2022-12-17T09:30:20.885Z","url":"/api/v1/categories/639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"601","method":"GET","response_time":259.904,"status":200,"timestamp":"2022-12-17T09:31:18.054Z","url":"/api/v1/categories/639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":90.433,"status":200,"timestamp":"2022-12-17T09:31:26.137Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":84.645,"status":200,"timestamp":"2022-12-17T09:31:28.824Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.6,"status":200,"timestamp":"2022-12-17T09:31:35.910Z","url":"/api/v1/products?category=%22639d878a029dbd8b0643f615%22"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":89.844,"status":200,"timestamp":"2022-12-17T09:31:41.435Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.338,"status":200,"timestamp":"2022-12-17T09:31:42.315Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":98.907,"status":200,"timestamp":"2022-12-17T09:34:26.905Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":10.163,"status":500,"timestamp":"2022-12-17T09:35:06.109Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":2.529,"status":500,"timestamp":"2022-12-17T09:35:07.251Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":10.272,"status":500,"timestamp":"2022-12-17T09:35:25.997Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.616,"status":500,"timestamp":"2022-12-17T09:35:27.046Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.985,"status":500,"timestamp":"2022-12-17T09:35:27.761Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.726,"status":500,"timestamp":"2022-12-17T09:35:28.330Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.966,"status":500,"timestamp":"2022-12-17T09:35:28.979Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.708,"status":500,"timestamp":"2022-12-17T09:35:29.243Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.721,"status":500,"timestamp":"2022-12-17T09:35:29.594Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.669,"status":500,"timestamp":"2022-12-17T09:35:29.823Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.936,"status":500,"timestamp":"2022-12-17T09:35:30.974Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":6.987,"status":500,"timestamp":"2022-12-17T09:35:48.475Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.603,"status":500,"timestamp":"2022-12-17T09:35:49.165Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.073,"status":500,"timestamp":"2022-12-17T09:35:50.351Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.781,"status":500,"timestamp":"2022-12-17T09:35:50.799Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":2.307,"status":500,"timestamp":"2022-12-17T09:35:51.374Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.729,"status":500,"timestamp":"2022-12-17T09:35:51.603Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.687,"status":500,"timestamp":"2022-12-17T09:35:51.771Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.75,"status":500,"timestamp":"2022-12-17T09:35:51.967Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.85,"status":500,"timestamp":"2022-12-17T09:35:52.168Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.932,"status":500,"timestamp":"2022-12-17T09:35:52.350Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.458,"status":500,"timestamp":"2022-12-17T09:35:52.558Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.986,"status":500,"timestamp":"2022-12-17T09:35:52.735Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.925,"status":500,"timestamp":"2022-12-17T09:35:52.933Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.622,"status":500,"timestamp":"2022-12-17T09:35:55.769Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.873,"status":500,"timestamp":"2022-12-17T09:35:55.987Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.713,"status":500,"timestamp":"2022-12-17T09:35:56.268Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.984,"status":500,"timestamp":"2022-12-17T09:35:56.484Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.449,"status":500,"timestamp":"2022-12-17T09:35:56.664Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.599,"status":500,"timestamp":"2022-12-17T09:35:56.824Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.02,"status":500,"timestamp":"2022-12-17T09:35:57.004Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.724,"status":500,"timestamp":"2022-12-17T09:35:57.252Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":118.884,"status":500,"timestamp":"2022-12-17T09:36:37.112Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":90.648,"status":500,"timestamp":"2022-12-17T09:36:37.937Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.775,"status":500,"timestamp":"2022-12-17T09:36:38.511Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.627,"status":500,"timestamp":"2022-12-17T09:36:39.117Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":86.938,"status":500,"timestamp":"2022-12-17T09:36:39.984Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.464,"status":500,"timestamp":"2022-12-17T09:36:40.731Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":88.038,"status":500,"timestamp":"2022-12-17T09:36:41.069Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":117.194,"status":500,"timestamp":"2022-12-17T09:36:41.352Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":86.905,"status":500,"timestamp":"2022-12-17T09:36:41.563Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":126.918,"status":500,"timestamp":"2022-12-17T09:37:23.438Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":101.293,"status":500,"timestamp":"2022-12-17T09:37:24.118Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.656,"status":500,"timestamp":"2022-12-17T09:37:24.327Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":86.94,"status":500,"timestamp":"2022-12-17T09:37:24.524Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.008,"status":500,"timestamp":"2022-12-17T09:37:24.708Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":88.811,"status":500,"timestamp":"2022-12-17T09:37:24.921Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":121.803,"status":200,"timestamp":"2022-12-17T09:37:46.156Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":10.407,"status":500,"timestamp":"2022-12-17T09:38:10.280Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.941,"status":500,"timestamp":"2022-12-17T09:38:11.045Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.116,"status":500,"timestamp":"2022-12-17T09:38:11.245Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.975,"status":500,"timestamp":"2022-12-17T09:38:25.768Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":8.044,"status":500,"timestamp":"2022-12-17T09:38:53.476Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.828,"status":500,"timestamp":"2022-12-17T09:38:54.141Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.135,"status":500,"timestamp":"2022-12-17T09:38:54.752Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.25,"status":500,"timestamp":"2022-12-17T09:38:54.993Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.123,"status":500,"timestamp":"2022-12-17T09:38:55.191Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.989,"status":500,"timestamp":"2022-12-17T09:38:55.425Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.787,"status":500,"timestamp":"2022-12-17T09:38:55.642Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.777,"status":500,"timestamp":"2022-12-17T09:38:55.843Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":8.124,"status":500,"timestamp":"2022-12-17T09:39:09.612Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":3.37,"status":500,"timestamp":"2022-12-17T09:39:10.287Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.624,"status":500,"timestamp":"2022-12-17T09:39:10.492Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.528,"status":500,"timestamp":"2022-12-17T09:39:10.695Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.069,"status":500,"timestamp":"2022-12-17T09:39:10.844Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.976,"status":500,"timestamp":"2022-12-17T09:39:11.047Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.838,"status":500,"timestamp":"2022-12-17T09:39:11.684Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.109,"status":500,"timestamp":"2022-12-17T09:39:11.879Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":10.359,"status":500,"timestamp":"2022-12-17T09:39:31.027Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.992,"status":500,"timestamp":"2022-12-17T09:39:31.712Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.776,"status":500,"timestamp":"2022-12-17T09:39:32.131Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.141,"status":500,"timestamp":"2022-12-17T09:39:32.508Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.207,"status":500,"timestamp":"2022-12-17T09:39:32.731Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.953,"status":500,"timestamp":"2022-12-17T09:39:32.930Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.854,"status":500,"timestamp":"2022-12-17T09:39:33.113Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.02,"status":500,"timestamp":"2022-12-17T09:39:33.299Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.47,"status":500,"timestamp":"2022-12-17T09:39:33.487Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.501,"status":500,"timestamp":"2022-12-17T09:39:33.830Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.728,"status":500,"timestamp":"2022-12-17T09:39:33.992Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.977,"status":500,"timestamp":"2022-12-17T09:39:34.368Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.958,"status":500,"timestamp":"2022-12-17T09:39:34.579Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.346,"status":500,"timestamp":"2022-12-17T09:39:34.773Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":9.956,"status":500,"timestamp":"2022-12-17T09:40:13.286Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":2.181,"status":500,"timestamp":"2022-12-17T09:40:14.101Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.134,"status":500,"timestamp":"2022-12-17T09:40:14.557Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.142,"status":500,"timestamp":"2022-12-17T09:40:14.771Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.041,"status":500,"timestamp":"2022-12-17T09:40:16.869Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.784,"status":500,"timestamp":"2022-12-17T09:40:17.142Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.578,"status":500,"timestamp":"2022-12-17T09:40:17.384Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.814,"status":500,"timestamp":"2022-12-17T09:40:17.638Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.371,"status":500,"timestamp":"2022-12-17T09:40:17.858Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.235,"status":500,"timestamp":"2022-12-17T09:40:18.088Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.022,"status":500,"timestamp":"2022-12-17T09:40:18.284Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":2.102,"status":500,"timestamp":"2022-12-17T09:40:18.468Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.716,"status":500,"timestamp":"2022-12-17T09:40:18.651Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.243,"status":500,"timestamp":"2022-12-17T09:40:18.822Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.119,"status":500,"timestamp":"2022-12-17T09:40:19.015Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":0.965,"status":500,"timestamp":"2022-12-17T09:40:19.222Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":1.054,"status":500,"timestamp":"2022-12-17T09:40:22.091Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"5078","method":"GET","response_time":238.159,"status":200,"timestamp":"2022-12-17T09:41:19.338Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":10.551,"status":500,"timestamp":"2022-12-17T09:41:32.254Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"5078","method":"GET","response_time":204.001,"status":200,"timestamp":"2022-12-17T09:41:36.802Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"4026","method":"GET","response_time":498.108,"status":200,"timestamp":"2022-12-17T09:43:52.877Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":88.014,"status":200,"timestamp":"2022-12-17T09:44:12.158Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":85.932,"status":200,"timestamp":"2022-12-17T09:44:13.425Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":82.471,"status":200,"timestamp":"2022-12-17T09:44:13.761Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":92.252,"status":200,"timestamp":"2022-12-17T09:44:14.682Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"7470","method":"GET","response_time":222.099,"status":200,"timestamp":"2022-12-17T09:44:32.833Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":5.08,"status":500,"timestamp":"2022-12-17T09:46:07.007Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"7470","method":"GET","response_time":179.698,"status":200,"timestamp":"2022-12-17T09:56:53.931Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":79.603,"status":500,"timestamp":"2022-12-17T12:16:11.224Z","url":"/api/v1/products?category=Category1"}
+http: incoming-request {"content_length":"1339","method":"GET","response_time":151.933,"status":200,"timestamp":"2022-12-17T12:16:52.669Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"7470","method":"GET","response_time":186.653,"status":200,"timestamp":"2022-12-17T12:17:15.873Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"670","method":"GET","response_time":86.255,"status":200,"timestamp":"2022-12-17T12:17:33.194Z","url":"/api/v1/products?category=639d878a029dbd8b0643f618"}
+http: incoming-request {"content_length":157,"method":"GET","response_time":706.982,"status":404,"timestamp":"2022-12-17T12:21:31.097Z","url":"/category/undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":124.108,"status":500,"timestamp":"2022-12-17T12:48:43.041Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":229.157,"status":500,"timestamp":"2022-12-17T12:49:06.669Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":2.693,"status":500,"timestamp":"2022-12-17T12:49:07.112Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":52.403,"status":500,"timestamp":"2022-12-17T12:49:34.491Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":3.165,"status":500,"timestamp":"2022-12-17T12:50:01.155Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":67.213,"status":500,"timestamp":"2022-12-17T12:50:01.781Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":55.685,"status":500,"timestamp":"2022-12-17T12:50:01.878Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":2.555,"status":500,"timestamp":"2022-12-17T12:50:02.233Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":1.99,"status":500,"timestamp":"2022-12-17T12:50:02.703Z","url":"/api/v1/products?category=undefined"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":530.532,"status":200,"timestamp":"2022-12-17T12:50:05.606Z","url":"/api/v1/products?category=639d7bce67b812fff2c6ea30"}
+http: incoming-request {"method":"GET","response_time":102.658,"status":304,"timestamp":"2022-12-17T12:50:15.720Z","url":"/api/v1/products?category=639d7bce67b812fff2c6ea30"}
+http: incoming-request {"method":"GET","response_time":124.414,"status":304,"timestamp":"2022-12-17T12:50:15.875Z","url":"/api/v1/products?category=639d7bce67b812fff2c6ea30"}
+http: incoming-request {"method":"GET","response_time":112.187,"status":304,"timestamp":"2022-12-17T12:51:39.831Z","url":"/api/v1/products?category=639d7bce67b812fff2c6ea30"}
+http: incoming-request {"method":"GET","response_time":99.477,"status":304,"timestamp":"2022-12-17T12:52:00.832Z","url":"/api/v1/products?category=639d7bce67b812fff2c6ea30"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T12:52:10.690Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T12:52:12.459Z"}
+http: incoming-request {"method":"GET","response_time":2349.809,"status":304,"timestamp":"2022-12-17T12:52:12.512Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"7470","method":"GET","response_time":2479.005,"status":200,"timestamp":"2022-12-17T12:52:12.551Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"3647","method":"GET","response_time":534.759,"status":200,"timestamp":"2022-12-17T12:52:12.720Z","url":"/api/v1/categories"}
+http: incoming-request {"content_length":"1339","method":"GET","response_time":87.145,"status":200,"timestamp":"2022-12-17T12:52:16.564Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":97.24,"status":304,"timestamp":"2022-12-17T12:54:11.262Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":85.69,"status":304,"timestamp":"2022-12-17T12:56:05.717Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":87.495,"status":304,"timestamp":"2022-12-17T12:56:23.026Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T12:56:47.503Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T12:56:47.608Z"}
+http: incoming-request {"method":"GET","response_time":105.529,"status":304,"timestamp":"2022-12-17T12:56:47.609Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":92.181,"status":304,"timestamp":"2022-12-17T12:56:47.647Z","url":"/api/v1/categories"}
+http: incoming-request {"method":"GET","response_time":203.999,"status":304,"timestamp":"2022-12-17T12:56:47.763Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":94.099,"status":200,"timestamp":"2022-12-17T12:56:49.611Z","url":"/api/v1/products?category=639d878a029dbd8b0643f616"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:01:08.105Z"}
+http: incoming-request {"method":"GET","response_time":276.329,"status":304,"timestamp":"2022-12-17T13:01:08.377Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:01:08.380Z"}
+http: incoming-request {"method":"GET","response_time":274.984,"status":304,"timestamp":"2022-12-17T13:01:08.383Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":508.416,"status":304,"timestamp":"2022-12-17T13:01:08.625Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":81.998,"status":304,"timestamp":"2022-12-17T13:01:10.507Z","url":"/api/v1/products?category=639d878a029dbd8b0643f616"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:01:13.169Z"}
+http: incoming-request {"method":"GET","response_time":92.676,"status":304,"timestamp":"2022-12-17T13:01:13.254Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:01:13.322Z"}
+http: incoming-request {"method":"GET","response_time":152.257,"status":304,"timestamp":"2022-12-17T13:01:13.336Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":199.912,"status":304,"timestamp":"2022-12-17T13:01:13.432Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":86.486,"status":304,"timestamp":"2022-12-17T13:01:14.196Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:01:19.312Z"}
+http: incoming-request {"method":"GET","response_time":116.291,"status":304,"timestamp":"2022-12-17T13:01:19.397Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:01:19.405Z"}
+http: incoming-request {"method":"GET","response_time":91.623,"status":304,"timestamp":"2022-12-17T13:01:19.422Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":197.403,"status":304,"timestamp":"2022-12-17T13:01:19.514Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":85.995,"status":304,"timestamp":"2022-12-17T13:01:20.354Z","url":"/api/v1/products?category=639d878a029dbd8b0643f616"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:01:22.713Z"}
+http: incoming-request {"method":"GET","response_time":120.817,"status":304,"timestamp":"2022-12-17T13:01:22.807Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:01:22.813Z"}
+http: incoming-request {"method":"GET","response_time":99.321,"status":304,"timestamp":"2022-12-17T13:01:22.879Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":257.374,"status":304,"timestamp":"2022-12-17T13:01:22.975Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":112.338,"status":304,"timestamp":"2022-12-17T13:01:23.741Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":165,"method":"GET","response_time":27.852,"status":404,"timestamp":"2022-12-17T13:03:06.206Z","url":"/category/[object%20Object]"}
+http: incoming-request {"content_length":"668","method":"GET","response_time":595.375,"status":200,"timestamp":"2022-12-17T13:04:13.019Z","url":"/api/v1/products/639d8f49daa3d70096b5235a"}
+http: incoming-request {"method":"GET","response_time":641.952,"status":304,"timestamp":"2022-12-17T13:04:18.203Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"668","method":"GET","response_time":83.812,"status":200,"timestamp":"2022-12-17T13:04:20.721Z","url":"/api/v1/products/639d8f49daa3d70096b5235b"}
+http: incoming-request {"method":"GET","response_time":87.094,"status":304,"timestamp":"2022-12-17T13:04:24.573Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":86.824,"status":304,"timestamp":"2022-12-17T13:04:26.037Z","url":"/api/v1/products/639d8f49daa3d70096b5235a"}
+http: incoming-request {"method":"GET","response_time":85.087,"status":304,"timestamp":"2022-12-17T13:04:28.758Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":117.038,"status":304,"timestamp":"2022-12-17T13:04:30.788Z","url":"/api/v1/products/639d8f49daa3d70096b5235b"}
+http: incoming-request {"method":"GET","response_time":281.329,"status":304,"timestamp":"2022-12-17T13:04:33.282Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:11:51.245Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:11:51.341Z"}
+http: incoming-request {"method":"GET","response_time":96.186,"status":304,"timestamp":"2022-12-17T13:11:51.343Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":94.556,"status":304,"timestamp":"2022-12-17T13:11:51.347Z","url":"/api/v1/categories"}
+http: incoming-request {"method":"GET","response_time":174.184,"status":304,"timestamp":"2022-12-17T13:11:51.425Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":83.692,"status":200,"timestamp":"2022-12-17T13:11:52.684Z","url":"/api/v1/products?category=639d878a029dbd8b0643f617"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:11:55.579Z"}
+http: incoming-request {"method":"GET","response_time":88.038,"status":304,"timestamp":"2022-12-17T13:11:55.662Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:11:55.690Z"}
+http: incoming-request {"method":"GET","response_time":110.908,"status":304,"timestamp":"2022-12-17T13:11:55.700Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":182.628,"status":304,"timestamp":"2022-12-17T13:11:55.791Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"670","method":"GET","response_time":86.501,"status":200,"timestamp":"2022-12-17T13:11:57.119Z","url":"/api/v1/products?category=639d878a029dbd8b0643f618"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:11:59.788Z"}
+http: incoming-request {"method":"GET","response_time":281.267,"status":304,"timestamp":"2022-12-17T13:11:59.876Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:11:59.882Z"}
+http: incoming-request {"method":"GET","response_time":92.361,"status":304,"timestamp":"2022-12-17T13:11:59.908Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":209.427,"status":304,"timestamp":"2022-12-17T13:12:00.006Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":83.729,"status":304,"timestamp":"2022-12-17T13:12:01.797Z","url":"/api/v1/products?category=639d878a029dbd8b0643f618"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:12:04.793Z"}
+http: incoming-request {"method":"GET","response_time":143.466,"status":304,"timestamp":"2022-12-17T13:12:04.878Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:12:04.887Z"}
+http: incoming-request {"method":"GET","response_time":93.812,"status":304,"timestamp":"2022-12-17T13:12:04.908Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":222.774,"status":304,"timestamp":"2022-12-17T13:12:05.024Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"2007","method":"GET","response_time":88.264,"status":200,"timestamp":"2022-12-17T13:12:15.600Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"content_length":"668","method":"GET","response_time":94.96,"status":200,"timestamp":"2022-12-17T13:12:23.233Z","url":"/api/v1/products/639d8f49daa3d70096b5235e"}
+http: incoming-request {"method":"GET","response_time":89.512,"status":304,"timestamp":"2022-12-17T13:12:27.088Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":85.204,"status":304,"timestamp":"2022-12-17T13:12:28.500Z","url":"/api/v1/products/639d8f49daa3d70096b5235e"}
+http: incoming-request {"method":"GET","response_time":84.515,"status":304,"timestamp":"2022-12-17T13:12:30.891Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"content_length":"668","method":"GET","response_time":188.781,"status":200,"timestamp":"2022-12-17T13:12:34.870Z","url":"/api/v1/products/639d8f49daa3d70096b5235d"}
+http: incoming-request {"method":"GET","response_time":87.101,"status":304,"timestamp":"2022-12-17T13:12:39.601Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":86.318,"status":304,"timestamp":"2022-12-17T13:12:41.325Z","url":"/api/v1/products/639d8f49daa3d70096b5235d"}
+http: incoming-request {"method":"GET","response_time":85.397,"status":304,"timestamp":"2022-12-17T13:12:50.457Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"content_length":"667","method":"GET","response_time":84.565,"status":200,"timestamp":"2022-12-17T13:12:52.656Z","url":"/api/v1/products/639d8f49daa3d70096b5235f"}
+http: incoming-request {"method":"GET","response_time":94.355,"status":304,"timestamp":"2022-12-17T13:12:59.201Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":85.885,"status":304,"timestamp":"2022-12-17T13:14:41.935Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":85.419,"status":304,"timestamp":"2022-12-17T13:14:59.898Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":86.364,"status":304,"timestamp":"2022-12-17T13:15:22.846Z","url":"/api/v1/products/639d8f49daa3d70096b5235e"}
+http: incoming-request {"method":"GET","response_time":102.999,"status":304,"timestamp":"2022-12-17T13:15:26.765Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":85.584,"status":304,"timestamp":"2022-12-17T13:29:27.075Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":86.142,"status":304,"timestamp":"2022-12-17T13:40:48.593Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":86.507,"status":304,"timestamp":"2022-12-17T13:43:07.711Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"content_length":"3345","method":"GET","response_time":214.826,"status":200,"timestamp":"2022-12-17T13:43:21.908Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":123.873,"status":304,"timestamp":"2022-12-17T13:43:22.366Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":90.695,"status":304,"timestamp":"2022-12-17T13:43:24.597Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":87.423,"status":304,"timestamp":"2022-12-17T13:43:25.340Z","url":"/api/v1/products?new=new"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T13:43:35.761Z"}
+http: incoming-request {"method":"GET","response_time":222.922,"status":304,"timestamp":"2022-12-17T13:43:35.929Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T13:43:35.975Z"}
+http: incoming-request {"method":"GET","response_time":214.809,"status":304,"timestamp":"2022-12-17T13:43:35.977Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":178.497,"status":304,"timestamp":"2022-12-17T13:43:36.094Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.81,"status":304,"timestamp":"2022-12-17T13:43:46.990Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":86.757,"status":304,"timestamp":"2022-12-17T13:43:50.576Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":119.801,"status":304,"timestamp":"2022-12-17T13:43:59.478Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":87.372,"status":304,"timestamp":"2022-12-17T13:44:03.031Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":89.518,"status":304,"timestamp":"2022-12-17T13:44:08.671Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":92.057,"status":304,"timestamp":"2022-12-17T13:44:09.558Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":87.815,"status":304,"timestamp":"2022-12-17T13:44:14.527Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":85.976,"status":304,"timestamp":"2022-12-17T13:44:17.123Z","url":"/api/v1/products?new=new"}
+http: incoming-request {"method":"GET","response_time":91.604,"status":304,"timestamp":"2022-12-17T14:03:48.007Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":112.166,"status":304,"timestamp":"2022-12-17T14:07:00.247Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":93.788,"status":304,"timestamp":"2022-12-17T14:07:20.136Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"content_length":"2","method":"GET","response_time":87.564,"status":200,"timestamp":"2022-12-17T14:07:21.376Z","url":"/api/v1/products?latest=new"}
+http: incoming-request {"method":"GET","response_time":86.45,"status":304,"timestamp":"2022-12-17T14:07:35.535Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":89.617,"status":304,"timestamp":"2022-12-17T14:07:35.708Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":89.381,"status":304,"timestamp":"2022-12-17T14:07:43.826Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":92.132,"status":304,"timestamp":"2022-12-17T14:07:54.336Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+http: incoming-request {"method":"GET","response_time":84.898,"status":304,"timestamp":"2022-12-17T14:08:01.353Z","url":"/api/v1/products?latest=new"}
+http: incoming-request {"method":"GET","response_time":87.611,"status":304,"timestamp":"2022-12-17T14:08:02.780Z","url":"/api/v1/products?latest=new"}
+http: incoming-request {"method":"GET","response_time":164.991,"status":304,"timestamp":"2022-12-17T14:11:20.859Z","url":"/api/v1/products?category=639d878a029dbd8b0643f619"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:17:14.988Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:17:15.175Z"}
+http: incoming-request {"method":"GET","response_time":270.779,"status":304,"timestamp":"2022-12-17T14:17:15.254Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":197.279,"status":304,"timestamp":"2022-12-17T14:17:15.281Z","url":"/api/v1/categories"}
+http: incoming-request {"method":"GET","response_time":290.42,"status":304,"timestamp":"2022-12-17T14:17:15.362Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:21:16.595Z"}
+http: incoming-request {"method":"GET","response_time":87.585,"status":304,"timestamp":"2022-12-17T14:21:16.680Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:21:16.688Z"}
+http: incoming-request {"method":"GET","response_time":93.08,"status":304,"timestamp":"2022-12-17T14:21:16.691Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":177.978,"status":304,"timestamp":"2022-12-17T14:21:17.258Z","url":"/api/v1/products"}
+http: incoming-request {"method":"GET","response_time":89.113,"status":304,"timestamp":"2022-12-17T14:24:19.931Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":82.817,"status":304,"timestamp":"2022-12-17T14:24:28.913Z","url":"/api/v1/products?category=639d878a029dbd8b0643f616"}
+http: incoming-request {"method":"GET","response_time":90.044,"status":304,"timestamp":"2022-12-17T14:24:35.883Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":305.661,"status":304,"timestamp":"2022-12-17T14:24:45.083Z","url":"/api/v1/products?category=639d878a029dbd8b0643f618"}
+http: incoming-request {"method":"GET","response_time":84.348,"status":304,"timestamp":"2022-12-17T14:24:54.190Z","url":"/api/v1/products?category=639d878a029dbd8b0643f615"}
+http: incoming-request {"method":"GET","response_time":83.618,"status":304,"timestamp":"2022-12-17T14:24:58.106Z","url":"/api/v1/products?category=639d878a029dbd8b0643f618"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:25:56.078Z"}
+http: incoming-request {"method":"GET","response_time":331.366,"status":304,"timestamp":"2022-12-17T14:25:56.396Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:25:56.403Z"}
+http: incoming-request {"method":"GET","response_time":324.862,"status":304,"timestamp":"2022-12-17T14:25:56.405Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":578.074,"status":304,"timestamp":"2022-12-17T14:25:56.668Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":7.666,"status":500,"timestamp":"2022-12-17T14:26:07.919Z","url":"/api/v1/products?category=undefined"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:26:15.671Z"}
+http: incoming-request {"method":"GET","response_time":92.361,"status":304,"timestamp":"2022-12-17T14:26:15.754Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:26:15.770Z"}
+http: incoming-request {"method":"GET","response_time":98.179,"status":304,"timestamp":"2022-12-17T14:26:15.776Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":198.204,"status":304,"timestamp":"2022-12-17T14:26:15.882Z","url":"/api/v1/products"}
+http: incoming-request {"content_length":"260","method":"GET","response_time":1.352,"status":500,"timestamp":"2022-12-17T14:26:18.616Z","url":"/api/v1/products?category=undefined"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:26:20.576Z"}
+http: incoming-request {"method":"GET","response_time":90.657,"status":304,"timestamp":"2022-12-17T14:26:20.659Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:26:20.675Z"}
+http: incoming-request {"method":"GET","response_time":98.529,"status":304,"timestamp":"2022-12-17T14:26:20.695Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":201.06,"status":304,"timestamp":"2022-12-17T14:26:20.790Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:29:59.708Z"}
+http: incoming-request {"method":"GET","response_time":92.716,"status":304,"timestamp":"2022-12-17T14:29:59.798Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:29:59.802Z"}
+http: incoming-request {"method":"GET","response_time":93.945,"status":304,"timestamp":"2022-12-17T14:29:59.808Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":177.532,"status":304,"timestamp":"2022-12-17T14:29:59.879Z","url":"/api/v1/products"}
+info: Attempting to get all stores {"timestamp":"2022-12-17T14:38:50.299Z"}
+http: incoming-request {"method":"GET","response_time":87.373,"status":304,"timestamp":"2022-12-17T14:38:50.383Z","url":"/api/v1/categories"}
+info: Success: Stores successfully found {"timestamp":"2022-12-17T14:38:50.389Z"}
+http: incoming-request {"method":"GET","response_time":90.612,"status":304,"timestamp":"2022-12-17T14:38:50.407Z","url":"/api/v1/stores"}
+http: incoming-request {"method":"GET","response_time":177.368,"status":304,"timestamp":"2022-12-17T14:38:50.464Z","url":"/api/v1/products"}

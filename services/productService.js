@@ -3,7 +3,7 @@ const Product = require("../models/Product")
 //@desc - serves getProductsHandler @productsController
 const getAllProducts = async () => {
     try {
-        const products = await Product.find();
+        const products = await Product.find().populate("categories");
         if (!products) throw new Error("Products not found")
         return products
     } catch (err) {
