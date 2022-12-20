@@ -45,6 +45,7 @@ app.use('/api/v1/users', userRoute);
 app.use('/api/v1/stores', storeRoute);
 app.use('/api/v1/categories', categoryRoute);
 
+mongoose.set('strictQuery', true);
 // Mongo connection and server start 
 if(!config.MONGO_URI) {
     console.log("MONGO_URI not found in .env file")
