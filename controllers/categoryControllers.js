@@ -51,7 +51,7 @@ const getCategory = async (req, res, next) => {
     try {
         const category = await Category.findById(req.params.id).populate('products');
         if (!category) throw new Error(`Category ${req.params.id} not found`)
-        res.status(200).json({success: 1, data: category})
+        res.status(200).json({success: 1, category})
     } catch (err) {
         next(err)
     }
