@@ -8,7 +8,7 @@ router.route('/')
 .post(allowIfLoggedIn, grantAccess('createAny', 'category'), addCategoryValidation, createCategory)
 
 router.route('/:id')
-.get(allowIfLoggedIn, getCategory)
+.get(getCategory)
 .put(allowIfLoggedIn, grantAccess('updateAny', 'category'), updateCategory)
 .delete(allowIfLoggedIn, grantAccess('deleteAny', 'category'), deleteCategory);
 // .get(allowIfLoggedIn, grantAccess('readAny', 'category'), getCategory)
