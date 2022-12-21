@@ -8,8 +8,9 @@ router.route('/')
 .post(allowIfLoggedIn, grantAccess('createAny', 'category'), addCategoryValidation, createCategory)
 
 router.route('/:id')
-.get(allowIfLoggedIn, grantAccess('readAny', 'category'), getCategory)
+.get(allowIfLoggedIn, getCategory)
 .put(allowIfLoggedIn, grantAccess('updateAny', 'category'), updateCategory)
-.delete(allowIfLoggedIn, grantAccess('deleteAny', 'category'), deleteCategory)
+.delete(allowIfLoggedIn, grantAccess('deleteAny', 'category'), deleteCategory);
+// .get(allowIfLoggedIn, grantAccess('readAny', 'category'), getCategory)
 
 module.exports = router
