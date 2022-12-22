@@ -48,3 +48,7 @@ info: Attempting to get all stores {"timestamp":"2022-12-22T10:19:54.559Z"}
 info: Success: Stores successfully found {"timestamp":"2022-12-22T10:19:54.658Z"}
 http: incoming-request {"content_length":"4384","method":"GET","response_time":99.629,"status":200,"timestamp":"2022-12-22T10:19:54.660Z","url":"/api/v1/stores"}
 http: incoming-request {"content_length":"1377","method":"GET","response_time":177.045,"status":200,"timestamp":"2022-12-22T10:19:58.233Z","url":"/api/v1/stores/63a42eda9edc9bc4b99ad40c"}
+info: Attempting to get all stores {"timestamp":"2022-12-22T10:25:16.807Z"}
+info: Success: Stores successfully found {"timestamp":"2022-12-22T10:25:16.931Z"}
+http: incoming-request {"content_length":"4488","method":"GET","response_time":126.423,"status":200,"timestamp":"2022-12-22T10:25:16.938Z","url":"/api/v1/stores"}
+http: incoming-request {"content_length":"2048","method":"GET","response_time":236.008,"status":200,"timestamp":"2022-12-22T10:25:31.045Z","url":"/api/v1/stores/63a430833aa40754a315e838"}
