@@ -39,7 +39,7 @@ const deleteStore = async (req, res) => {
 // Get store
 const getStore = async (req, res, next) => {
     try {
-        const store = await Store.findById(req.params.id);
+        const store = await Store.findById(req.params.id).populate("products");
         if (!store) res.status(404).json({ message: 'Store not found' })
         res.status(200).json(store)
     } catch (err) {
