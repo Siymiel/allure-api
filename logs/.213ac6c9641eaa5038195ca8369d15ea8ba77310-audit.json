@@ -34,6 +34,11 @@
             "date": 1671603218265,
             "name": "E:\\projects\\allure\\server\\logs\\http-2022-12-21.log",
             "hash": "3bf9b3f14f001126e0a4de2e23457fc0d2d229dc478ac40fc7e148526a3483bd"
+        },
+        {
+            "date": 1671693408955,
+            "name": "E:\\projects\\allure\\server\\logs\\http-2022-12-22.log",
+            "hash": "b97839aba382e7bb9e974c04e82d8aac1036226a7728f4be0a78b6099ae32069"
         }
     ],
     "hashType": "sha256"

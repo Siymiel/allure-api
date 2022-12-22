@@ -28,9 +28,9 @@ const StoreSchema = new Schema({
         ref: "User",
     },
     products: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Product"
-    }
+        type: mongoose.Schema.Types.Array,
+        ref: 'Product'
+    },
 }, { timestamps: true})
 
 module.exports = StoreSchema

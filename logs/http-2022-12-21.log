@@ -90,3 +90,4 @@ http: incoming-request {"content_length":"3647","method":"GET","response_time":3
 http: incoming-request {"content_length":"269","method":"POST","response_time":458.112,"status":200,"timestamp":"2022-12-21T13:41:32.474Z","url":"/api/v1/users/login"}
 http: incoming-request {"content_length":"601","method":"GET","response_time":263.428,"status":200,"timestamp":"2022-12-21T13:42:01.546Z","url":"/api/v1/categories/639d878a029dbd8b0643f615"}
 http: incoming-request {"content_length":"601","method":"GET","response_time":252.236,"status":200,"timestamp":"2022-12-21T13:43:34.655Z","url":"/api/v1/categories/639d878a029dbd8b0643f615"}
+http: incoming-request {"content_length":"605","method":"GET","response_time":296.902,"status":200,"timestamp":"2022-12-21T13:48:41.190Z","url":"/api/v1/categories/639d878a029dbd8b0643f615"}
