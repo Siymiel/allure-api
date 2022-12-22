@@ -54,3 +54,9 @@ http: incoming-request {"content_length":"4488","method":"GET","response_time":1
 http: incoming-request {"content_length":"2048","method":"GET","response_time":236.008,"status":200,"timestamp":"2022-12-22T10:25:31.045Z","url":"/api/v1/stores/63a430833aa40754a315e838"}
 http: incoming-request {"content_length":"764","method":"GET","response_time":111.769,"status":200,"timestamp":"2022-12-22T10:34:12.219Z","url":"/api/v1/stores/63a430833aa40754a315e838"}
 http: incoming-request {"content_length":"2048","method":"GET","response_time":210.989,"status":200,"timestamp":"2022-12-22T10:34:34.392Z","url":"/api/v1/stores/63a430833aa40754a315e838"}
+http: incoming-request {"content_length":1257,"method":"GET","response_time":15.785,"status":500,"timestamp":"2022-12-22T14:53:47.616Z","url":"/api/v1/slider_items"}
+http: incoming-request {"content_length":"296","method":"GET","response_time":12.46,"status":500,"timestamp":"2022-12-22T14:56:37.851Z","url":"/api/v1/slider_items"}
+http: incoming-request {"content_length":"296","method":"GET","response_time":2.254,"status":500,"timestamp":"2022-12-22T15:35:46.053Z","url":"/api/v1/slider_items"}
+http: incoming-request {"content_length":"296","method":"GET","response_time":8.829,"status":500,"timestamp":"2022-12-22T15:37:28.844Z","url":"/api/v1/slideritems"}
+http: incoming-request {"content_length":"296","method":"GET","response_time":4.335,"status":500,"timestamp":"2022-12-22T15:38:12.937Z","url":"/api/v1/slideritems"}
+http: incoming-request {"content_length":"1973","method":"GET","response_time":258.687,"status":200,"timestamp":"2022-12-22T18:31:01.851Z","url":"/api/v1/slideritems"}

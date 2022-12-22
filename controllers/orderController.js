@@ -53,7 +53,7 @@ const deleteOrder = async (req, res) => {
     try {
         const order = await Order.findByIdAndRemove(req.params.id)
         if(!order) res.status(404).json({ message: 'Order not found' })
-        res.status(200).json({ message: "Order removed" })
+        res.status(200).json({ message: "Order deleted" })
     } catch (err) {
         res.status(500).json(err, { message: "Error deleting order" })
     }
@@ -74,7 +74,7 @@ const getUserOrders = async (req, res) => {
 const getAllOrders = async (req, res) => {
     try {
         const orders = await Order.find()
-        if (!orders) res.status(404).json({ message: 'Order not found' })
+        if (!orders) res.status(404).json({ message: 'Orders not found' })
         res.status(200).json(orders)
     } catch (err) {
         res.status(500).json(err, { message: "Error getting orders" })

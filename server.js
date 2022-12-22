@@ -9,6 +9,7 @@ const orderRoute = require("./routes/orderRoute")
 const userRoute = require("./routes/userRoute")
 const storeRoute = require("./routes/storeRoute")
 const categoryRoute = require("./routes/categoryRoute")
+const sliderRoute = require("./routes/sliderRoute")
 const morganMiddleware = require('./utils/morgan')
 const JWT_SECRET = require("./utils/config")
 const User = require("./models/User")
@@ -44,6 +45,7 @@ app.use('/api/v1/orders', orderRoute)
 app.use('/api/v1/users', userRoute);
 app.use('/api/v1/stores', storeRoute);
 app.use('/api/v1/categories', categoryRoute);
+app.use('/api/v1/slideritems', sliderRoute)
 
 mongoose.set('strictQuery', true);
 // Mongo connection and server start 
