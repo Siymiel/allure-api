@@ -30,7 +30,7 @@ const deleteSliderItem = async (req, res) => {
         if(!deletedSliderItem) res.status(404).json({ message: 'Slider item not found' });
         res.status(200).json({ message: "Slider item deleted" })
     } catch (err) {
-        res.status(500).json(err, { message: "Error deleting slider item" });
+        res.status(500).json("Error deleting slider item");
     }
 };
 
@@ -41,7 +41,7 @@ const getAllSliderItems = async (req, res) => {
         if(!sliderItems) res.status(404).json({ message: 'Slider items not found' });
         res.status(200).json(sliderItems)
     } catch (err) {
-         res.status(500).json(err, { message: "Error getting slider items" })
+         res.status(500).json({message: "Error getting slider items"})
     }
 };
 
