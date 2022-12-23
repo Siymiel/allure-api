@@ -6,16 +6,6 @@
     "auditLog": "E:\\projects\\allure\\server\\logs\\.95f1407653b6d59cef0890b03ecae6512fd9187c-audit.json",
     "files": [
         {
-            "date": 1671095924555,
-            "name": "E:\\projects\\allure\\server\\logs\\errors-2022-12-15.log",
-            "hash": "bf1e6d2a1262058bd0e81f4794a8379e5db06fdcbe783dc71f87f5c0148a15cb"
-        },
-        {
-            "date": 1671164867909,
-            "name": "E:\\projects\\allure\\server\\logs\\errors-2022-12-16.log",
-            "hash": "914469fd64f2b0dea1f89d480ce993819622e9567e5ff0bf529a7903b093569b"
-        },
-        {
             "date": 1671254041692,
             "name": "E:\\projects\\allure\\server\\logs\\errors-2022-12-17.log",
             "hash": "ffccbf91d09c16fd0790c71720f0a0871efc66df28b0d83f64621d0de581eb06"
@@ -39,6 +29,11 @@
             "date": 1671693408905,
             "name": "E:\\projects\\allure\\server\\logs\\errors-2022-12-22.log",
             "hash": "b8928dbfbd6482a53303e859444fb77ee33a43bac9099ac07c5f5741dfbc34ac"
+        },
+        {
+            "date": 1671816425132,
+            "name": "E:\\projects\\allure\\server\\logs\\errors-2022-12-23.log",
+            "hash": "d35351acacb9f8bfbff379c73635077b2168da50122c29a33427313dc7dcf236"
         }
     ],
     "hashType": "sha256"
